@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild-complete.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/vboxuser/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

@@ -1,23 +1,34 @@
-/**
- * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
+// Modified by James Palmer
+// October 2023
 
 #include "pico/stdlib.h"
+#include "hardware/pio.h"
+#include "ws2812.pio.h"
 
 int main() {
-#ifndef PICO_DEFAULT_LED_PIN
-#warning blink example requires a board with a regular LED
-#else
-    const uint LED_PIN = PICO_DEFAULT_LED_PIN;
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
+    // NeoPixel LED is connected to GPIO17
+    const uint LED_PIN = 17;
+    
+    // Initialize PIO instance
+    PIO pio = pio0;
+    uint sm = 0;
+
+    // Load WS2812 PIO
+    uint offset = pio_add_program(pio, &ws2812_program);
+
+    // Initialize PIO state machine
+    ws2812_program_init(pio, sm, offset, LED_PIN, 800000, 1);
+
+    // Pixel data (set to red)
+    uint32_t pixel;
+
     while (true) {
-        gpio_put(LED_PIN, 1);
+	pixel = 0x00000010;
+        pio_sm_put_blocking(pio, sm, pixel << 8u);
         sleep_ms(250);
-        gpio_put(LED_PIN, 0);
+        pixel = 0x00000000;
+	pio_sm_put_blocking(pio, sm, pixel << 8u);
         sleep_ms(250);
     }
-#endif
+    return 0;
 }

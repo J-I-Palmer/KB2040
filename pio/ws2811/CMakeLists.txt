@@ -1,0 +1,26 @@
+add_executable(pio_ws2811)
+add_executable(pio_ws2811_colorful)
+add_executable(pio_ws2811_wave)
+add_executable(pio_ws2811_rainbow)
+
+file(MAKE_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/generated)
+
+pico_generate_pio_header(pio_ws2811 ${CMAKE_CURRENT_LIST_DIR}/ws2811.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+pico_generate_pio_header(pio_ws2811_colorful ${CMAKE_CURRENT_LIST_DIR}/ws2811.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+pico_generate_pio_header(pio_ws2811_wave ${CMAKE_CURRENT_LIST_DIR}/ws2811.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+pico_generate_pio_header(pio_ws2811_rainbow ${CMAKE_CURRENT_LIST_DIR}/ws2811.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+
+target_sources(pio_ws2811 PRIVATE ws2811.c)
+target_sources(pio_ws2811_colorful PRIVATE ws2811_colorful.c)
+target_sources(pio_ws2811_wave PRIVATE ws2811_wave.c)
+target_sources(pio_ws2811_rainbow PRIVATE ws2811_rainbow.c)
+
+target_link_libraries(pio_ws2811 PRIVATE pico_stdlib hardware_pio)
+target_link_libraries(pio_ws2811_colorful PRIVATE pico_stdlib hardware_pio)
+target_link_libraries(pio_ws2811_wave PRIVATE pico_stdlib hardware_pio)
+target_link_libraries(pio_ws2811_rainbow PRIVATE pico_stdlib hardware_pio)
+
+pico_add_extra_outputs(pio_ws2811)
+pico_add_extra_outputs(pio_ws2811_colorful)
+pico_add_extra_outputs(pio_ws2811_wave)
+pico_add_extra_outputs(pio_ws2811_rainbow)
