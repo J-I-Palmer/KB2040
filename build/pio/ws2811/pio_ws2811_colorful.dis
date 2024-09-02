@@ -375,11 +375,11 @@ Disassembly of section .text:
 10000362:	f001 fea3 	bl	100020ac <pio_add_program>
 10000366:	2106      	movs	r1, #6
 10000368:	0006      	movs	r6, r0
-1000036a:	2002      	movs	r0, #2
+1000036a:	2003      	movs	r0, #3
 1000036c:	f000 f884 	bl	10000478 <gpio_set_function>
 10000370:	2301      	movs	r3, #1
 10000372:	2100      	movs	r1, #0
-10000374:	2202      	movs	r2, #2
+10000374:	2203      	movs	r2, #3
 10000376:	483b      	ldr	r0, [pc, #236]	@ (10000464 <main+0x110>)
 10000378:	9300      	str	r3, [sp, #0]
 1000037a:	f001 ff0f 	bl	1000219c <pio_sm_set_consecutive_pindirs>
@@ -487,7 +487,7 @@ Disassembly of section .text:
 10000460:	10002370 	.word	0x10002370
 10000464:	50200000 	.word	0x50200000
 10000468:	9fffffff 	.word	0x9fffffff
-1000046c:	20000800 	.word	0x20000800
+1000046c:	20000c00 	.word	0x20000c00
 10000470:	70060000 	.word	0x70060000
 10000474:	4af42400 	.word	0x4af42400
 
