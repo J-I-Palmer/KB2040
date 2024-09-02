@@ -1017,9 +1017,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/adc_dma_capture.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_victim_initialized
                 0x00000000        0x2 CMakeFiles/adc_dma_capture.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x00000000        0x0 /tmp/ccWDchBR.o
- .data          0x00000000        0x0 /tmp/ccWDchBR.o
- .bss           0x00000000        0x0 /tmp/ccWDchBR.o
+ .text          0x00000000        0x0 /tmp/cc61gwPw.o
+ .data          0x00000000        0x0 /tmp/cc61gwPw.o
+ .bss           0x00000000        0x0 /tmp/cc61gwPw.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1283,7 +1283,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccWDchBR.o
+ .boot2         0x10000000      0x100 /tmp/cc61gwPw.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2093,7 +2093,7 @@ LOAD CMakeFiles/adc_dma_capture.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/h
 LOAD CMakeFiles/adc_dma_capture.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 LOAD CMakeFiles/adc_dma_capture.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 LOAD CMakeFiles/adc_dma_capture.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-LOAD /tmp/ccWDchBR.o
+LOAD /tmp/cc61gwPw.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2193,7 +2193,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000064c       0x2c CMakeFiles/adc_dma_capture.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x00000678       0x22 /tmp/ccWDchBR.o
+                0x00000678       0x22 /tmp/cc61gwPw.o
  .ARM.attributes
                 0x0000069a       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

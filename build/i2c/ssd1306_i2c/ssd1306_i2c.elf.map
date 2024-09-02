@@ -1012,9 +1012,9 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/ssd1306_i2c.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .data.i2c1_inst
                 0x00000000        0x8 CMakeFiles/ssd1306_i2c.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text          0x00000000        0x0 /tmp/ccddLeXv.o
- .data          0x00000000        0x0 /tmp/ccddLeXv.o
- .bss           0x00000000        0x0 /tmp/ccddLeXv.o
+ .text          0x00000000        0x0 /tmp/ccxupB7Q.o
+ .data          0x00000000        0x0 /tmp/ccxupB7Q.o
+ .bss           0x00000000        0x0 /tmp/ccxupB7Q.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1197,7 +1197,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccddLeXv.o
+ .boot2         0x10000000      0x100 /tmp/ccxupB7Q.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1897,7 +1897,7 @@ LOAD CMakeFiles/ssd1306_i2c.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_
 LOAD CMakeFiles/ssd1306_i2c.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/ssd1306_i2c.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/ssd1306_i2c.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-LOAD /tmp/ccddLeXv.o
+LOAD /tmp/ccxupB7Q.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -1991,7 +1991,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000005c8       0x2c CMakeFiles/ssd1306_i2c.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x000005f4       0x22 /tmp/ccddLeXv.o
+                0x000005f4       0x22 /tmp/ccxupB7Q.o
  .ARM.attributes
                 0x00000616       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

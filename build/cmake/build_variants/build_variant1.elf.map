@@ -954,9 +954,9 @@ Discarded input sections
                 0x00000000        0x4 CMakeFiles/build_variant1.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr54
                 0x00000000        0x4 CMakeFiles/build_variant1.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 /tmp/ccxxDkDu.o
- .data          0x00000000        0x0 /tmp/ccxxDkDu.o
- .bss           0x00000000        0x0 /tmp/ccxxDkDu.o
+ .text          0x00000000        0x0 /tmp/ccL9VXCP.o
+ .data          0x00000000        0x0 /tmp/ccL9VXCP.o
+ .bss           0x00000000        0x0 /tmp/ccL9VXCP.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1220,7 +1220,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccxxDkDu.o
+ .boot2         0x10000000      0x100 /tmp/ccL9VXCP.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1919,7 +1919,7 @@ LOAD CMakeFiles/build_variant1.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pi
 LOAD CMakeFiles/build_variant1.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/build_variant1.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/build_variant1.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/ccxxDkDu.o
+LOAD /tmp/ccL9VXCP.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2009,7 +2009,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000057a       0x2c CMakeFiles/build_variant1.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x000005a6       0x22 /tmp/ccxxDkDu.o
+                0x000005a6       0x22 /tmp/ccL9VXCP.o
  .ARM.attributes
                 0x000005c8       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
