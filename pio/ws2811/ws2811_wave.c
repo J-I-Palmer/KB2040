@@ -37,7 +37,7 @@ int main(){
 		else
 			numLoops = 0;
 		// This controls the speed at which the lit LED changes
-		sleep_ms(10);
+		sleep_ms(100);
 	}
 
 	return 0;

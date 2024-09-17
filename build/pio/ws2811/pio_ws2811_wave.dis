@@ -449,7 +449,7 @@ Disassembly of section .text:
 1000040e:	2e31      	cmp	r6, #49	@ 0x31
 10000410:	d009      	beq.n	10000426 <main+0xd2>
 10000412:	3601      	adds	r6, #1
-10000414:	200a      	movs	r0, #10
+10000414:	2064      	movs	r0, #100	@ 0x64
 10000416:	f000 fd2b 	bl	10000e70 <sleep_ms>
 1000041a:	e7ea      	b.n	100003f2 <main+0x9e>
 1000041c:	686b      	ldr	r3, [r5, #4]
