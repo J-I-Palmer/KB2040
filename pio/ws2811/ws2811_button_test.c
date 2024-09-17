@@ -27,6 +27,7 @@ int main(){
 	gpio_set_dir(BUTTON_PIN, GPIO_IN);
 
 	while(true){
+		sleep_ms(100);
 		button_presses = button_presses % 3;
 		if (button_presses == 0){
 			pixel = 0xff000000; // RRGGBB--
