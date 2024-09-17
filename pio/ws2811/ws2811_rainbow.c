@@ -5,6 +5,8 @@
 #include "hardware/clocks.h"
 #include "ws2811.pio.h"
 
+int io_reset(int command_counter, const int NUM_LEDS);
+
 int main(){
 
 	// connecting output to GPIO pin 2
@@ -24,56 +26,56 @@ int main(){
 	while (true){
 		// from red to orange to yellow
 		while(pixel < 0xffff0000){
-			pio_sm_put_blocking(pio, sm, pixel);
+			for (int i = 0; i < 50; i++)
+				pio_sm_put_blocking(pio, sm, pixel);
 			pixel += 0x00010000;
-			command_counter++;
-			if(command_counter > NUM_LEDS){
-				command_counter = 0;
-				sleep_ms(0.05);
-			}
+			sleep_ms(500);
+			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from yellow to green
 		while(pixel > 0x00ff0000){
-			pio_sm_put_blocking(pio, sm, pixel);
+			for (int i = 0; i < 50; i++)
+				pio_sm_put_blocking(pio, sm, pixel);
 			pixel -= 0x01000000;
-			command_counter++;
-			if(command_counter > NUM_LEDS){
-				command_counter = 0;
-				sleep_ms(0.05);
-			}
+			sleep_ms(500);
+			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from green to blue
 		while(pixel > 0x0000ff00){
-			pio_sm_put_blocking(pio, sm, pixel);
+			for (int i = 0; i < 50; i++)
+				pio_sm_put_blocking(pio, sm, pixel);
 			pixel -= 0x00010000;
 			pixel += 0x00000100;
-			command_counter++;
-			if(command_counter > NUM_LEDS){
-				command_counter = 0;
-				sleep_ms(0.05);
-			}
+			sleep_ms(500);
+			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from blue to indigo to violet
 		while(pixel < 0xff00ff00){
-			pio_sm_put_blocking(pio, sm, pixel);
+			for (int i = 0; i < 50; i++)
+				pio_sm_put_blocking(pio, sm, pixel);
 			pixel += 0x01000000;
-			command_counter++;
-			if(command_counter > NUM_LEDS){
-				command_counter = 0;
-				sleep_ms(0.05);
-			}
+			sleep_ms(500);
+			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from violet back to red
 		while(pixel > 0xff000000){
-			pio_sm_put_blocking(pio, sm, pixel);
+			for (int i = 0; i < 50; i++)
+				pio_sm_put_blocking(pio, sm, pixel);
 			pixel -= 0x00000100;
-			command_counter++;
-			if(command_counter > NUM_LEDS){
-				command_counter = 0;
-				sleep_ms(0.05);
-			}
+			sleep_ms(500);
+			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 	}
 
 	return 0;
+}
+
+int io_reset(int command_counter, const int NUM_LEDS){
+	command_counter++;
+	if (command_counter > NUM_LEDS){
+		command_counter = 0;
+		sleep_ms(500);
+	}
+
+	return command_counter;
 }

@@ -7,8 +7,8 @@
 
 int main(){
 	
-	// connecting output to GPIO pin 2
-	const uint LED_PIN = 2;
+	// connecting output to GPIO pin 3
+	const uint LED_PIN = 3;
 	const int NUM_LEDS = 50;
 
 	PIO pio = pio0;

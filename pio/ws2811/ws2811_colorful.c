@@ -7,8 +7,8 @@
 
 int main(){
 
-	// connecting output to GPIO pin 2
-	const uint LED_PIN = 2;
+	// connecting output to GPIO pin 3
+	const uint LED_PIN = 3;
 	
 	// number of LEDs to be controlled
 	const int NUM_LEDS = 50;
