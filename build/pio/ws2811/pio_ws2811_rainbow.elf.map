@@ -1059,9 +1059,9 @@ Discarded input sections
  .text.pio_sm_drain_tx_fifo
                 0x00000000       0x48 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .bss.claimed   0x00000000        0x1 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 /tmp/ccNu5cSB.o
- .data          0x00000000        0x0 /tmp/ccNu5cSB.o
- .bss           0x00000000        0x0 /tmp/ccNu5cSB.o
+ .text          0x00000000        0x0 /tmp/cciL335o.o
+ .data          0x00000000        0x0 /tmp/cciL335o.o
+ .bss           0x00000000        0x0 /tmp/cciL335o.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1325,7 +1325,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccNu5cSB.o
+ .boot2         0x10000000      0x100 /tmp/cciL335o.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1391,228 +1391,227 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002bc       0x98 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000354      0x1a4 CMakeFiles/pio_ws2811_rainbow.dir/ws2811_rainbow.c.obj
+                0x10000354      0x1a8 CMakeFiles/pio_ws2811_rainbow.dir/ws2811_rainbow.c.obj
                 0x10000354                main
  .text.gpio_set_function
-                0x100004f8       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100004f8                gpio_set_function
+                0x100004fc       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004fc                gpio_set_function
  .text.running_on_fpga
-                0x10000528       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000528                running_on_fpga
+                0x1000052c       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x1000052c                running_on_fpga
  .text.hw_claim_lock
-                0x10000538       0x18 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000538                hw_claim_lock
+                0x1000053c       0x18 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000053c                hw_claim_lock
  .text.hw_claim_unlock
-                0x10000550       0x14 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000550                hw_claim_unlock
+                0x10000554       0x14 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000554                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x10000564       0x44 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000564                hw_claim_or_assert
+                0x10000568       0x44 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000568                hw_claim_or_assert
  .text.spin_locks_reset
-                0x100005a8       0x1c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100005a8                spin_locks_reset
+                0x100005ac       0x1c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100005ac                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100005c4       0x18 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100005c4                next_striped_spin_lock_num
+                0x100005c8       0x18 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100005c8                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x100005dc       0x24 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005dc                irq_set_enabled
+                0x100005e0       0x24 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005e0                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x10000600       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000600                irq_get_vtable_handler
+                0x10000604       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000604                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000610       0x54 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000610                irq_set_exclusive_handler
+                0x10000614       0x54 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000614                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10000664      0x1c4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000664                irq_remove_handler
+                0x10000668      0x1c4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000668                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000828       0xb4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000828                irq_add_tail_to_free_list
+                0x1000082c       0xb4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000082c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x100008dc       0x24 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100008dc                irq_init_priorities
+                0x100008e0       0x24 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008e0                irq_init_priorities
  .text.lock_init
-                0x10000900       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000900                lock_init
+                0x10000904       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000904                lock_init
  .text.mutex_init
-                0x10000910       0x1c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000910                mutex_init
+                0x10000914       0x1c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000914                mutex_init
  .text.recursive_mutex_init
-                0x1000092c       0x1c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000092c                recursive_mutex_init
+                0x10000930       0x1c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000930                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x10000948       0x34 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000948                timer_pool_entry_comparator
+                0x1000094c       0x34 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000094c                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x1000097c       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000980       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x100009ac      0x100 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009b0      0x100 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000aac      0x1c0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ab0      0x1c0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000c6c       0x6c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000c6c                alarm_pool_init_default
+                0x10000c70       0x6c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c70                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x10000cd8      0x188 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000cd8                alarm_pool_add_alarm_at
+                0x10000cdc      0x188 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000cdc                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x10000e60       0xc4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e60                sleep_until
+                0x10000e64       0xc4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e64                sleep_until
  .text.sleep_ms
-                0x10000f24       0x38 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f24                sleep_ms
+                0x10000f28       0x38 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f28                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10000f5c       0xec CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f5c                best_effort_wfe_or_timeout
+                0x10000f60       0xec CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f60                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10001048       0xbc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000104c       0xbc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001104       0x18 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001104                hardware_alarm_claim
+                0x10001108       0x18 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001108                hardware_alarm_claim
  .text.time_us_64
-                0x1000111c       0x14 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000111c                time_us_64
+                0x10001120       0x14 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001120                time_us_64
  .text.busy_wait_until
-                0x10001130       0x20 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001130                busy_wait_until
+                0x10001134       0x20 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001134                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001150       0x8c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001150                hardware_alarm_set_callback
+                0x10001154       0x8c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001154                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100011dc       0xd0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011dc                hardware_alarm_set_target
+                0x100011e0       0xd0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011e0                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x100012ac       0x3c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100012ac                hardware_alarm_cancel
+                0x100012b0       0x3c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100012b0                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x100012e8       0x64 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100012ec       0x64 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x1000134c       0x3c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000134c                ph_post_alloc_init
+                0x10001350       0x3c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001350                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001388       0x98 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001388                ph_merge_two_pass
+                0x1000138c       0x98 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000138c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001420      0x100 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001424      0x100 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001520      0x104 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001520                ph_remove_head
+                0x10001524      0x104 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001524                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001624       0x78 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001624                ph_remove_and_free_node
+                0x10001628       0x78 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001628                ph_remove_and_free_node
  .text.clocks_init
-                0x1000169c      0x2c8 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x1000169c                clocks_init
+                0x100016a0      0x2c8 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100016a0                clocks_init
  .text.clock_get_hz
-                0x10001964        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001964                clock_get_hz
+                0x10001968        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001968                clock_get_hz
  .text.pll_init
-                0x10001970       0xa0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001970                pll_init
+                0x10001974       0xa0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001974                pll_init
  .text.watchdog_start_tick
-                0x10001a10       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001a10                watchdog_start_tick
+                0x10001a14       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001a14                watchdog_start_tick
  .text.xosc_init
-                0x10001a20       0x28 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001a20                xosc_init
+                0x10001a24       0x28 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001a24                xosc_init
  .text.runtime_init
-                0x10001a48       0xf0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a48                runtime_init
- .text._exit    0x10001b38        0x4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001b38                _exit
- .text.exit     0x10001b3c        0x8 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001b3c                exit
- .text.panic    0x10001b44       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001b44                panic
+                0x10001a4c       0xf0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001a4c                runtime_init
+ .text._exit    0x10001b3c        0x4 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b3c                _exit
+ .text.exit     0x10001b40        0x8 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b40                exit
+ .text.panic    0x10001b48       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b48                panic
  .text.hard_assertion_failure
-                0x10001b74        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001b74                hard_assertion_failure
+                0x10001b78        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b78                hard_assertion_failure
  .text._out_char
-                0x10001b80       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001b84       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x10001b90       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10001b90                weak_raw_vprintf
- .text          0x10001bc0       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001b94       0x30 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001b94                weak_raw_vprintf
+ .text          0x10001bc4       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10001bd0       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001bd0                rom_func_lookup
+                0x10001bd4       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001bd4                rom_func_lookup
  .text.rom_data_lookup
-                0x10001be0       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001be0                rom_data_lookup
+                0x10001be4       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001be4                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001bf0       0x44 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001bf0                rom_funcs_lookup
+                0x10001bf4       0x44 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001bf4                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x10001c34       0x4c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10001c34                __wrap___aeabi_uidiv
-                0x10001c34                __wrap___aeabi_uidivmod
-                0x10001c34                div_u32u32
-                0x10001c34                divmod_u32u32
-                0x10001c3c                divmod_u32u32_unsafe
-                0x10001c64                divmod_u32u32_savestate
+                0x10001c38       0x4c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001c38                __wrap___aeabi_uidiv
+                0x10001c38                __wrap___aeabi_uidivmod
+                0x10001c38                div_u32u32
+                0x10001c38                divmod_u32u32
+                0x10001c40                divmod_u32u32_unsafe
+                0x10001c68                divmod_u32u32_savestate
  .text.missing_double_func_shim
-                0x10001c80        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001c84        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10001c8c       0x94 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10001c8c                __aeabi_double_init
+                0x10001c90       0x94 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001c90                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10001d20       0x2c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10001d20                double_table_shim_on_use_helper
+                0x10001d24       0x2c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10001d24                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10001d4c       0x32 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10001d4c                __wrap___aeabi_lmul
- *fill*         0x10001d7e        0x2 
+                0x10001d50       0x32 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10001d50                __wrap___aeabi_lmul
+ *fill*         0x10001d82        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x10001d80       0x48 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001d80                __wrap___aeabi_frsub
-                0x10001d86                __wrap___aeabi_fsub
-                0x10001d8c                __wrap___aeabi_fadd
-                0x10001d92                __wrap___aeabi_fdiv
-                0x10001dba                __wrap___aeabi_fmul
+                0x10001d84       0x48 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001d84                __wrap___aeabi_frsub
+                0x10001d8a                __wrap___aeabi_fsub
+                0x10001d90                __wrap___aeabi_fadd
+                0x10001d96                __wrap___aeabi_fdiv
+                0x10001dbe                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x10001dc8        0xa CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001dc8                __wrap___aeabi_ui2f
- *fill*         0x10001dd2        0x2 
+                0x10001dcc        0xa CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001dcc                __wrap___aeabi_ui2f
+ *fill*         0x10001dd6        0x2 
  .text.__wrap___aeabi_i2f
-                0x10001dd4       0x44 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001dd4                __wrap___aeabi_i2f
+                0x10001dd8       0x44 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001dd8                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2uiz
-                0x10001e18        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001e18                __wrap___aeabi_f2uiz
+                0x10001e1c        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001e1c                __wrap___aeabi_f2uiz
  .text.missing_float_func_shim
-                0x10001e24        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10001e28        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x10001e30       0x5c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10001e30                __aeabi_float_init
- .text          0x10001e8c       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001e8c                __aeabi_mem_init
- .text.memcpy   0x10001e9c        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001e9c                __wrap___aeabi_memcpy
-                0x10001e9c                __wrap_memcpy
+                0x10001e34       0x5c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10001e34                __aeabi_float_init
+ .text          0x10001e90       0x10 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001e90                __aeabi_mem_init
+ .text.memcpy   0x10001ea0        0xc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001ea0                __wrap___aeabi_memcpy
+                0x10001ea0                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x10001ea8       0xbc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001eac       0xbc CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10001f64       0x98 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001f64                __wrap_putchar
+                0x10001f68       0x98 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001f68                __wrap_putchar
  .text.__wrap_puts
-                0x10001ffc       0xe0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001ffc                __wrap_puts
+                0x10002000       0xe0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002000                __wrap_puts
  .text.pio_add_program
-                0x100020dc       0xf0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100020dc                pio_add_program
+                0x100020e0       0xf0 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100020e0                pio_add_program
  .text.pio_sm_set_consecutive_pindirs
-                0x100021cc       0xa8 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100021cc                pio_sm_set_consecutive_pindirs
+                0x100021d0       0xa8 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100021d0                pio_sm_set_consecutive_pindirs
  .text.pio_sm_init
-                0x10002274       0x98 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10002274                pio_sm_init
- .text          0x1000230c       0x5c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x1000230c                strlen
+                0x10002278       0x98 CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10002278                pio_sm_init
+ .text          0x10002310       0x5c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x10002310                strlen
  *(.fini)
- .fini          0x10002368        0x4 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
-                0x10002368                _fini
- *fill*         0x1000236c        0x4 
+ .fini          0x1000236c        0x4 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
+                0x1000236c                _fini
  .fini.__stub   0x10002370       0x30 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
@@ -1940,7 +1939,7 @@ LOAD CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_commo
 LOAD CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD /tmp/ccNu5cSB.o
+LOAD /tmp/cciL335o.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2028,7 +2027,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000544       0x2c CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x00000570       0x22 /tmp/ccNu5cSB.o
+                0x00000570       0x22 /tmp/cciL335o.o
  .ARM.attributes
                 0x00000592       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

@@ -29,7 +29,7 @@ int main(){
 			for (int i = 0; i < 50; i++)
 				pio_sm_put_blocking(pio, sm, pixel);
 			pixel += 0x00010000;
-			sleep_ms(500);
+			sleep_ms(50);
 			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from yellow to green
@@ -37,7 +37,7 @@ int main(){
 			for (int i = 0; i < 50; i++)
 				pio_sm_put_blocking(pio, sm, pixel);
 			pixel -= 0x01000000;
-			sleep_ms(500);
+			sleep_ms(50);
 			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from green to blue
@@ -46,7 +46,7 @@ int main(){
 				pio_sm_put_blocking(pio, sm, pixel);
 			pixel -= 0x00010000;
 			pixel += 0x00000100;
-			sleep_ms(500);
+			sleep_ms(50);
 			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from blue to indigo to violet
@@ -54,7 +54,7 @@ int main(){
 			for (int i = 0; i < 50; i++)
 				pio_sm_put_blocking(pio, sm, pixel);
 			pixel += 0x01000000;
-			sleep_ms(500);
+			sleep_ms(50);
 			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 		// from violet back to red
@@ -62,7 +62,7 @@ int main(){
 			for (int i = 0; i < 50; i++)
 				pio_sm_put_blocking(pio, sm, pixel);
 			pixel -= 0x00000100;
-			sleep_ms(500);
+			sleep_ms(50);
 			// command_counter = io_reset(command_counter, NUM_LEDS);
 		}
 	}
