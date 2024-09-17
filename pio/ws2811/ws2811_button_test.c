@@ -27,7 +27,6 @@ int main(){
 	gpio_set_dir(BUTTON_PIN, GPIO_IN);
 
 	while(true){
-		sleep_ms(200);
 		button_presses = button_presses % 3;
 		if (button_presses == 0){
 			pixel = 0xff000000; // RRGGBB--
@@ -46,6 +45,8 @@ int main(){
 			for (int i = 0; i < NUM_LEDS; i++)
 				pio_sm_put_blocking(pio, sm, pixel);
 		}
+
+		sleep_ms(200);
 
 		if (gpio_get(BUTTON_PIN)){
 			sleep_ms(1);
