@@ -46,8 +46,11 @@ int main(){
 				pio_sm_put_blocking(pio, sm, pixel);
 		}
 
-		if (gpio_get(BUTTON_PIN))
-			button_presses++;
+		if (gpio_get(BUTTON_PIN)){
+			sleep_ms(1);
+			if (gpio_get(BUTTON_PIN))
+				button_presses++;
+		}
 	}
 
 	return 0;

@@ -298,12 +298,8 @@ Discarded input sections
                 0x00000000       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_dump
                 0x00000000       0x34 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
- .text.sleep_until
-                0x00000000       0xc4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_us
                 0x00000000       0x28 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
- .text.sleep_ms
-                0x00000000       0x38 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.at_the_end_of_time
                 0x00000000        0x8 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.nil_time
@@ -339,8 +335,6 @@ Discarded input sections
                 0x00000000       0x68 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.busy_wait_ms
                 0x00000000       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .text.busy_wait_until
-                0x00000000       0x20 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_force_irq
                 0x00000000       0x3c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text          0x00000000        0x0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -740,10 +734,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .data          0x00000000        0x0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .bss           0x00000000        0x0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .text.__aeabi_lmul
-                0x00000000       0x32 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .ARM.attributes
-                0x00000000       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .text          0x00000000        0x0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .data          0x00000000        0x0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .bss           0x00000000        0x0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1063,9 +1053,9 @@ Discarded input sections
  .text.pio_sm_drain_tx_fifo
                 0x00000000       0x48 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .bss.claimed   0x00000000        0x1 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 /tmp/cc9nxIS7.o
- .data          0x00000000        0x0 /tmp/cc9nxIS7.o
- .bss           0x00000000        0x0 /tmp/cc9nxIS7.o
+ .text          0x00000000        0x0 /tmp/ccfffcRP.o
+ .data          0x00000000        0x0 /tmp/ccfffcRP.o
+ .bss           0x00000000        0x0 /tmp/ccfffcRP.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1329,11 +1319,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/cc9nxIS7.o
+ .boot2         0x10000000      0x100 /tmp/ccfffcRP.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x2180
+.text           0x10000100     0x22c8
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1395,226 +1385,239 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002bc       0x98 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000354      0x14c CMakeFiles/pio_ws2811_button_test.dir/ws2811_button_test.c.obj
+                0x10000354      0x144 CMakeFiles/pio_ws2811_button_test.dir/ws2811_button_test.c.obj
                 0x10000354                main
  .text.gpio_set_function
-                0x100004a0       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100004a0                gpio_set_function
+                0x10000498       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000498                gpio_set_function
  .text.gpio_init
-                0x100004d0       0x3c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100004d0                gpio_init
+                0x100004c8       0x3c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004c8                gpio_init
  .text.running_on_fpga
-                0x1000050c       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x1000050c                running_on_fpga
+                0x10000504       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000504                running_on_fpga
  .text.hw_claim_lock
-                0x1000051c       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000051c                hw_claim_lock
+                0x10000514       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000514                hw_claim_lock
  .text.hw_claim_unlock
-                0x10000534       0x14 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000534                hw_claim_unlock
+                0x1000052c       0x14 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000052c                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x10000548       0x44 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000548                hw_claim_or_assert
+                0x10000540       0x44 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000540                hw_claim_or_assert
  .text.spin_locks_reset
-                0x1000058c       0x1c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000058c                spin_locks_reset
+                0x10000584       0x1c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000584                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100005a8       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100005a8                next_striped_spin_lock_num
+                0x100005a0       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100005a0                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x100005c0       0x24 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005c0                irq_set_enabled
+                0x100005b8       0x24 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005b8                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x100005e4       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005e4                irq_get_vtable_handler
+                0x100005dc       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005dc                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x100005f4       0x54 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005f4                irq_set_exclusive_handler
+                0x100005ec       0x54 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005ec                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10000648      0x1c4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000648                irq_remove_handler
+                0x10000640      0x1c4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000640                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x1000080c       0xb4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000080c                irq_add_tail_to_free_list
+                0x10000804       0xb4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000804                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x100008c0       0x24 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100008c0                irq_init_priorities
+                0x100008b8       0x24 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008b8                irq_init_priorities
  .text.lock_init
-                0x100008e4       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x100008e4                lock_init
+                0x100008dc       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x100008dc                lock_init
  .text.mutex_init
-                0x100008f4       0x1c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100008f4                mutex_init
+                0x100008ec       0x1c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100008ec                mutex_init
  .text.recursive_mutex_init
-                0x10000910       0x1c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000910                recursive_mutex_init
+                0x10000908       0x1c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000908                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x1000092c       0x34 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000092c                timer_pool_entry_comparator
+                0x10000924       0x34 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000924                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10000960       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000958       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000990      0x100 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000988      0x100 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000a90      0x1c0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a88      0x1c0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000c50       0x6c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000c50                alarm_pool_init_default
+                0x10000c48       0x6c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c48                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x10000cbc      0x188 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000cbc                alarm_pool_add_alarm_at
+                0x10000cb4      0x188 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000cb4                alarm_pool_add_alarm_at
+ .text.sleep_until
+                0x10000e3c       0xc4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e3c                sleep_until
+ .text.sleep_ms
+                0x10000f00       0x38 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f00                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10000e44       0xec CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e44                best_effort_wfe_or_timeout
+                0x10000f38       0xec CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f38                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10000f30       0xbc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001024       0xbc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10000fec       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000fec                hardware_alarm_claim
+                0x100010e0       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010e0                hardware_alarm_claim
  .text.time_us_64
-                0x10001004       0x14 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001004                time_us_64
+                0x100010f8       0x14 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010f8                time_us_64
+ .text.busy_wait_until
+                0x1000110c       0x20 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000110c                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001018       0x8c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001018                hardware_alarm_set_callback
+                0x1000112c       0x8c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000112c                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100010a4       0xd0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100010a4                hardware_alarm_set_target
+                0x100011b8       0xd0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011b8                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001174       0x3c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001174                hardware_alarm_cancel
+                0x10001288       0x3c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001288                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x100011b0       0x64 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100012c4       0x64 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001214       0x3c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001214                ph_post_alloc_init
+                0x10001328       0x3c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001328                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001250       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001250                ph_merge_two_pass
+                0x10001364       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001364                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100012e8      0x100 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100013fc      0x100 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x100013e8      0x104 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100013e8                ph_remove_head
+                0x100014fc      0x104 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100014fc                ph_remove_head
  .text.ph_remove_and_free_node
-                0x100014ec       0x78 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100014ec                ph_remove_and_free_node
+                0x10001600       0x78 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001600                ph_remove_and_free_node
  .text.clocks_init
-                0x10001564      0x2c8 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001564                clocks_init
+                0x10001678      0x2c8 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001678                clocks_init
  .text.clock_get_hz
-                0x1000182c        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x1000182c                clock_get_hz
+                0x10001940        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001940                clock_get_hz
  .text.pll_init
-                0x10001838       0xa0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001838                pll_init
+                0x1000194c       0xa0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x1000194c                pll_init
  .text.watchdog_start_tick
-                0x100018d8       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100018d8                watchdog_start_tick
+                0x100019ec       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100019ec                watchdog_start_tick
  .text.xosc_init
-                0x100018e8       0x28 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100018e8                xosc_init
+                0x100019fc       0x28 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x100019fc                xosc_init
  .text.runtime_init
-                0x10001910       0xf0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001910                runtime_init
- .text._exit    0x10001a00        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a00                _exit
- .text.exit     0x10001a04        0x8 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a04                exit
- .text.panic    0x10001a0c       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a0c                panic
+                0x10001a24       0xf0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001a24                runtime_init
+ .text._exit    0x10001b14        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b14                _exit
+ .text.exit     0x10001b18        0x8 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b18                exit
+ .text.panic    0x10001b20       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b20                panic
  .text.hard_assertion_failure
-                0x10001a3c        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a3c                hard_assertion_failure
+                0x10001b50        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001b50                hard_assertion_failure
  .text._out_char
-                0x10001a48       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001b5c       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x10001a58       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10001a58                weak_raw_vprintf
- .text          0x10001a88       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001b6c       0x30 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001b6c                weak_raw_vprintf
+ .text          0x10001b9c       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10001a98       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001a98                rom_func_lookup
+                0x10001bac       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001bac                rom_func_lookup
  .text.rom_data_lookup
-                0x10001aa8       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001aa8                rom_data_lookup
+                0x10001bbc       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001bbc                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001ab8       0x44 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001ab8                rom_funcs_lookup
+                0x10001bcc       0x44 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001bcc                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x10001afc       0x50 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10001afc                __wrap___aeabi_idivmod
-                0x10001afc                divmod_s32s32
-                0x10001afc                div_s32s32
-                0x10001afc                __wrap___aeabi_idiv
-                0x10001b04                divmod_s32s32_unsafe
-                0x10001b30                divmod_s32s32_savestate
+                0x10001c10       0x50 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001c10                __wrap___aeabi_idivmod
+                0x10001c10                divmod_s32s32
+                0x10001c10                div_s32s32
+                0x10001c10                __wrap___aeabi_idiv
+                0x10001c18                divmod_s32s32_unsafe
+                0x10001c44                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10001b4c       0x4c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10001b4c                __wrap___aeabi_uidiv
-                0x10001b4c                __wrap___aeabi_uidivmod
-                0x10001b4c                div_u32u32
-                0x10001b4c                divmod_u32u32
-                0x10001b54                divmod_u32u32_unsafe
-                0x10001b7c                divmod_u32u32_savestate
+                0x10001c60       0x4c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001c60                __wrap___aeabi_uidiv
+                0x10001c60                __wrap___aeabi_uidivmod
+                0x10001c60                div_u32u32
+                0x10001c60                divmod_u32u32
+                0x10001c68                divmod_u32u32_unsafe
+                0x10001c90                divmod_u32u32_savestate
  .text.missing_double_func_shim
-                0x10001b98        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001cac        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10001ba4       0x94 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10001ba4                __aeabi_double_init
+                0x10001cb8       0x94 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001cb8                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10001c38       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10001c38                double_table_shim_on_use_helper
+                0x10001d4c       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10001d4c                double_table_shim_on_use_helper
+ .text.__aeabi_lmul
+                0x10001d78       0x32 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10001d78                __wrap___aeabi_lmul
+ *fill*         0x10001daa        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x10001c64       0x48 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001c64                __wrap___aeabi_frsub
-                0x10001c6a                __wrap___aeabi_fsub
-                0x10001c70                __wrap___aeabi_fadd
-                0x10001c76                __wrap___aeabi_fdiv
-                0x10001c9e                __wrap___aeabi_fmul
+                0x10001dac       0x48 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001dac                __wrap___aeabi_frsub
+                0x10001db2                __wrap___aeabi_fsub
+                0x10001db8                __wrap___aeabi_fadd
+                0x10001dbe                __wrap___aeabi_fdiv
+                0x10001de6                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x10001cac        0xa CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001cac                __wrap___aeabi_ui2f
- *fill*         0x10001cb6        0x2 
+                0x10001df4        0xa CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001df4                __wrap___aeabi_ui2f
+ *fill*         0x10001dfe        0x2 
  .text.__wrap___aeabi_i2f
-                0x10001cb8       0x44 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001cb8                __wrap___aeabi_i2f
+                0x10001e00       0x44 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001e00                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2uiz
-                0x10001cfc        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10001cfc                __wrap___aeabi_f2uiz
+                0x10001e44        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10001e44                __wrap___aeabi_f2uiz
  .text.missing_float_func_shim
-                0x10001d08        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10001e50        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x10001d14       0x5c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10001d14                __aeabi_float_init
- .text          0x10001d70       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001d70                __aeabi_mem_init
- .text.memcpy   0x10001d80        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001d80                __wrap___aeabi_memcpy
-                0x10001d80                __wrap_memcpy
+                0x10001e5c       0x5c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10001e5c                __aeabi_float_init
+ .text          0x10001eb8       0x10 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001eb8                __aeabi_mem_init
+ .text.memcpy   0x10001ec8        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001ec8                __wrap___aeabi_memcpy
+                0x10001ec8                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x10001d8c       0xbc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001ed4       0xbc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10001e48       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001e48                __wrap_putchar
+                0x10001f90       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001f90                __wrap_putchar
  .text.__wrap_puts
-                0x10001ee0       0xe0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001ee0                __wrap_puts
+                0x10002028       0xe0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002028                __wrap_puts
  .text.pio_add_program
-                0x10001fc0       0xf0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10001fc0                pio_add_program
+                0x10002108       0xf0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10002108                pio_add_program
  .text.pio_sm_set_consecutive_pindirs
-                0x100020b0       0xa8 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100020b0                pio_sm_set_consecutive_pindirs
+                0x100021f8       0xa8 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100021f8                pio_sm_set_consecutive_pindirs
  .text.pio_sm_init
-                0x10002158       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10002158                pio_sm_init
- .text          0x100021f0       0x5c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x100021f0                strlen
+                0x100022a0       0x98 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100022a0                pio_sm_init
+ .text          0x10002338       0x5c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x10002338                strlen
  *(.fini)
- .fini          0x1000224c        0x4 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
-                0x1000224c                _fini
- .fini.__stub   0x10002250       0x30 linker stubs
+ .fini          0x10002394        0x4 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
+                0x10002394                _fini
+ .fini.__stub   0x10002398       0x30 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1626,94 +1629,94 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10002280        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10002280                        . = ALIGN (0x4)
+ .eh_frame      0x100023c8        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x100023c8                        . = ALIGN (0x4)
 
-.glue_7         0x10002280        0x0
- .glue_7        0x10002280        0x0 linker stubs
+.glue_7         0x100023c8        0x0
+ .glue_7        0x100023c8        0x0 linker stubs
 
-.glue_7t        0x10002280        0x0
- .glue_7t       0x10002280        0x0 linker stubs
+.glue_7t        0x100023c8        0x0
+ .glue_7t       0x100023c8        0x0 linker stubs
 
-.vfp11_veneer   0x10002280        0x0
- .vfp11_veneer  0x10002280        0x0 linker stubs
+.vfp11_veneer   0x100023c8        0x0
+ .vfp11_veneer  0x100023c8        0x0 linker stubs
 
-.v4_bx          0x10002280        0x0
- .v4_bx         0x10002280        0x0 linker stubs
+.v4_bx          0x100023c8        0x0
+ .v4_bx         0x100023c8        0x0 linker stubs
 
-.iplt           0x10002280        0x0
- .iplt          0x10002280        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100023c8        0x0
+ .iplt          0x100023c8        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10002280       0xfc
+.rodata         0x100023c8       0xfc
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.ws2811_program
-                0x10002280        0x6 CMakeFiles/pio_ws2811_button_test.dir/ws2811_button_test.c.obj
- *fill*         0x10002286        0x2 
+                0x100023c8        0x6 CMakeFiles/pio_ws2811_button_test.dir/ws2811_button_test.c.obj
+ *fill*         0x100023ce        0x2 
  .rodata.ws2811_program_instructions
-                0x10002288        0x8 CMakeFiles/pio_ws2811_button_test.dir/ws2811_button_test.c.obj
+                0x100023d0        0x8 CMakeFiles/pio_ws2811_button_test.dir/ws2811_button_test.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x10002290       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x100022b2        0x2 
+                0x100023d8       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100023fa        0x2 
  .rodata.panic.str1.4
-                0x100022b4       0x12 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x100022c6        0x2 
+                0x100023fc       0x12 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x1000240e        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x100022c8        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002410        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x100022d4       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x1000241c       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x100022ec       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10002434       0x18 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                   0x1 (size before relaxing)
  .rodata.str1.4
-                0x100022ec       0x54 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002434       0x54 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10002340        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002488        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x1000234c        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002494        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10002358        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024a0        0xc CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10002364        0x2 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10002366        0x2 
+                0x100024ac        0x2 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100024ae        0x2 
  .rodata.pio_add_program.str1.4
-                0x10002368       0x11 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x1000237c                        . = ALIGN (0x4)
- *fill*         0x10002379        0x3 
+                0x100024b0       0x11 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100024c4                        . = ALIGN (0x4)
+ *fill*         0x100024c1        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x1000237c                        . = ALIGN (0x4)
+                0x100024c4                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x1000237c                        __exidx_start = .
+                0x100024c4                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x1000237c                        __exidx_end = .
-                0x1000237c                        . = ALIGN (0x4)
-                0x1000237c                        __binary_info_start = .
+                0x100024c4                        __exidx_end = .
+                0x100024c4                        . = ALIGN (0x4)
+                0x100024c4                        __binary_info_start = .
 
-.binary_info    0x1000237c       0x1c
+.binary_info    0x100024c4       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x1000237c        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024c4        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10002380        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024c8        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10002384        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024cc        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10002388        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024d0        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x1000238c        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024d4        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10002390        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024d8        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10002394        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100024dc        0x4 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x10002398                        __binary_info_end = .
+                0x100024e0                        __binary_info_end = .
 
-.rel.dyn        0x10002398        0x0
- .rel.iplt      0x10002398        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10002398                        . = ALIGN (0x4)
+.rel.dyn        0x100024e0        0x0
+ .rel.iplt      0x100024e0        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x100024e0                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -1722,7 +1725,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x20000000       0xc0 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x18c load address 0x10002398
+.data           0x200000c0      0x18c load address 0x100024e0
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1796,36 +1799,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x2000024c                        . = ALIGN (0x4)
                 0x2000024c                        __data_end__ = .
-                0x10002398                        __etext = LOADADDR (.data)
+                0x100024e0                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x2000024c        0x0 load address 0x10002524
+                0x2000024c        0x0 load address 0x1000266c
  .tm_clone_table
                 0x2000024c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000024c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x2000024c        0x0 load address 0x10002524
+.igot.plt       0x2000024c        0x0 load address 0x1000266c
  .igot.plt      0x2000024c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x2000024c        0x0 load address 0x10002524
+                0x2000024c        0x0 load address 0x1000266c
                 0x2000024c                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10002524
+.scratch_x      0x20040000        0x0 load address 0x1000266c
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10002524                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x1000266c                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10002524
+.scratch_y      0x20041000        0x0 load address 0x1000266c
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10002524                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x1000266c                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000250      0x3d4
                 0x20000250                        . = ALIGN (0x4)
@@ -1884,8 +1887,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10002524        0x0
-                0x10002524                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x1000266c        0x0
+                0x1000266c                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -1941,7 +1944,7 @@ LOAD CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_c
 LOAD CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD /tmp/cc9nxIS7.o
+LOAD /tmp/ccfffcRP.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2013,27 +2016,29 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000416       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .ARM.attributes
-                0x00000438       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000438       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000045a       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000045a       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .ARM.attributes
-                0x00000486       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000047c       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .ARM.attributes
-                0x000004a8       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x000004a8       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .ARM.attributes
-                0x000004ca       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000004ca       0x22 CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .ARM.attributes
-                0x000004f6       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000004ec       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .ARM.attributes
-                0x00000522       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x00000518       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x0000054e       0x22 /tmp/cc9nxIS7.o
+                0x00000544       0x2c CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x00000570       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x00000570       0x22 /tmp/ccfffcRP.o
  .ARM.attributes
-                0x0000058e       0x2c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x00000592       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000005ba       0x2c /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
+                0x000005b0       0x2c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x000005dc       0x2c /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
 
 .comment        0x00000000       0x59
  .comment       0x00000000       0x26 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
