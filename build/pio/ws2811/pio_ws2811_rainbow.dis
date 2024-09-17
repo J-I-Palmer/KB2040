@@ -451,7 +451,7 @@ Disassembly of section .text:
 10000412:	4466      	add	r6, ip
 10000414:	2a33      	cmp	r2, #51	@ 0x33
 10000416:	d1f2      	bne.n	100003fe <main+0xaa>
-10000418:	2000      	movs	r0, #0
+10000418:	2001      	movs	r0, #1
 1000041a:	f000 fd79 	bl	10000f10 <sleep_ms>
 1000041e:	2200      	movs	r2, #0
 10000420:	4546      	cmp	r6, r8
@@ -485,7 +485,7 @@ Disassembly of section .text:
 10000458:	4466      	add	r6, ip
 1000045a:	2a33      	cmp	r2, #51	@ 0x33
 1000045c:	d1f3      	bne.n	10000446 <main+0xf2>
-1000045e:	2000      	movs	r0, #0
+1000045e:	2001      	movs	r0, #1
 10000460:	f000 fd56 	bl	10000f10 <sleep_ms>
 10000464:	2200      	movs	r2, #0
 10000466:	42be      	cmp	r6, r7
@@ -518,15 +518,15 @@ Disassembly of section .text:
 1000049c:	42be      	cmp	r6, r7
 1000049e:	d8f4      	bhi.n	1000048a <main+0x136>
 100004a0:	e7ad      	b.n	100003fe <main+0xaa>
-100004a2:	2000      	movs	r0, #0
+100004a2:	2001      	movs	r0, #1
 100004a4:	f000 fd34 	bl	10000f10 <sleep_ms>
 100004a8:	2200      	movs	r2, #0
 100004aa:	e7c8      	b.n	1000043e <main+0xea>
-100004ac:	2000      	movs	r0, #0
+100004ac:	2001      	movs	r0, #1
 100004ae:	f000 fd2f 	bl	10000f10 <sleep_ms>
 100004b2:	2200      	movs	r2, #0
 100004b4:	e7e5      	b.n	10000482 <main+0x12e>
-100004b6:	2000      	movs	r0, #0
+100004b6:	2001      	movs	r0, #1
 100004b8:	f000 fd2a 	bl	10000f10 <sleep_ms>
 100004bc:	2200      	movs	r2, #0
 100004be:	e7ed      	b.n	1000049c <main+0x148>
