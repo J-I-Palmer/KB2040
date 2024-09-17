@@ -1612,6 +1612,19 @@ pio_ws2811_rainbow/fast:
 .PHONY : pio_ws2811_rainbow/fast
 
 #=============================================================================
+# Target rules for targets named pio_ws2811_button_test
+
+# Build rule for target.
+pio_ws2811_button_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_ws2811_button_test
+.PHONY : pio_ws2811_button_test
+
+# fast build rule for target.
+pio_ws2811_button_test/fast:
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build
+.PHONY : pio_ws2811_button_test/fast
+
+#=============================================================================
 # Target rules for targets named pio_ws2811_ws2811_pio_h
 
 # Build rule for target.
@@ -1662,6 +1675,19 @@ pio_ws2811_rainbow_ws2811_pio_h: cmake_check_build_system
 pio_ws2811_rainbow_ws2811_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow_ws2811_pio_h.dir/build
 .PHONY : pio_ws2811_rainbow_ws2811_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pio_ws2811_button_test_ws2811_pio_h
+
+# Build rule for target.
+pio_ws2811_button_test_ws2811_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_ws2811_button_test_ws2811_pio_h
+.PHONY : pio_ws2811_button_test_ws2811_pio_h
+
+# fast build rule for target.
+pio_ws2811_button_test_ws2811_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test_ws2811_pio_h.dir/build
+.PHONY : pio_ws2811_button_test_ws2811_pio_h/fast
 
 #=============================================================================
 # Target rules for targets named hello_pwm
@@ -2328,6 +2354,7 @@ help:
 	@echo "... pio_uart_rx_intr_uart_rx_pio_h"
 	@echo "... pio_uart_rx_uart_rx_pio_h"
 	@echo "... pio_uart_tx_uart_tx_pio_h"
+	@echo "... pio_ws2811_button_test_ws2811_pio_h"
 	@echo "... pio_ws2811_colorful_ws2811_pio_h"
 	@echo "... pio_ws2811_rainbow_ws2811_pio_h"
 	@echo "... pio_ws2811_wave_ws2811_pio_h"
@@ -2421,6 +2448,7 @@ help:
 	@echo "... pio_uart_rx_intr"
 	@echo "... pio_uart_tx"
 	@echo "... pio_ws2811"
+	@echo "... pio_ws2811_button_test"
 	@echo "... pio_ws2811_colorful"
 	@echo "... pio_ws2811_rainbow"
 	@echo "... pio_ws2811_wave"

@@ -445,10 +445,12 @@
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_wave.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir
+/home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_ws2811_pio_h.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_colorful_ws2811_pio_h.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_wave_ws2811_pio_h.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_rainbow_ws2811_pio_h.dir
+/home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/pio_ws2811_button_test_ws2811_pio_h.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/edit_cache.dir
 /home/vboxuser/pico/pico-examples/build/pio/ws2811/CMakeFiles/rebuild_cache.dir
 /home/vboxuser/pico/pico-examples/build/pwm/CMakeFiles/edit_cache.dir
