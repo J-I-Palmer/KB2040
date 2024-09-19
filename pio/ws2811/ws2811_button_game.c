@@ -25,6 +25,7 @@ int main(){
 
 	while(true){
 		reset = false;
+		pressed = false;
 
 		for(int i = 0; i < NUM_LEDS; i++)
 			pio_sm_put_blocking(pio, sm, pixel);
@@ -52,6 +53,8 @@ int main(){
 			for(int i = 0; i < NUM_LEDS; i++)
 				pio_sm_put_blocking(pio, sm, pixel);
 		}
+
+		sleep_ms(200);
 
 		while(!reset){
 			sleep_ms(100);
