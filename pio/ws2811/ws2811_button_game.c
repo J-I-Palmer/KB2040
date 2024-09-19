@@ -16,8 +16,8 @@ int main(){
 	uint offset = pio_add_program(pio, &ws2811_program);
 	ws2811_program_init(pio, sm, offset, LED_PIN, 800000, 0);
 
-	uint32_t pixel;
-	bool pressed;
+	uint32_t pixel = 0x00000000;
+	bool pressed = false;
 	bool reset;
 
 	gpio_init(BUTTON_PIN);
