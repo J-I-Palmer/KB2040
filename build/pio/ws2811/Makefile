@@ -187,6 +187,20 @@ pio_ws2811_button_test/fast:
 .PHONY : pio_ws2811_button_test/fast
 
 # Convenience name for target.
+pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/rule:
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/rule
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/rule
+
+# Convenience name for target.
+pio_ws2811_button_game: pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/rule
+.PHONY : pio_ws2811_button_game
+
+# fast build rule for target.
+pio_ws2811_button_game/fast:
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build
+.PHONY : pio_ws2811_button_game/fast
+
+# Convenience name for target.
 pio/ws2811/CMakeFiles/pio_ws2811_ws2811_pio_h.dir/rule:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_ws2811_pio_h.dir/rule
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_ws2811_pio_h.dir/rule
@@ -256,6 +270,20 @@ pio_ws2811_button_test_ws2811_pio_h/fast:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test_ws2811_pio_h.dir/build
 .PHONY : pio_ws2811_button_test_ws2811_pio_h/fast
 
+# Convenience name for target.
+pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/rule:
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/rule
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/rule
+
+# Convenience name for target.
+pio_ws2811_button_game_ws2811_pio_h: pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/rule
+.PHONY : pio_ws2811_button_game_ws2811_pio_h
+
+# fast build rule for target.
+pio_ws2811_button_game_ws2811_pio_h/fast:
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/build
+.PHONY : pio_ws2811_button_game_ws2811_pio_h/fast
+
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
@@ -266,6 +294,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -278,6 +307,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -290,6 +320,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -302,6 +333,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -314,6 +346,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -326,6 +359,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -338,6 +372,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.i: home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -350,6 +385,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.s: home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -362,6 +398,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.obj: home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -374,6 +411,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.i: home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -386,6 +424,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.s: home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -398,6 +437,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_time/time.obj: home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -410,6 +450,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_time/time.i: home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -422,6 +463,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_time/time.s: home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -434,6 +476,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -446,6 +489,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -458,6 +502,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -470,6 +515,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.obj: home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -482,6 +528,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.i: home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -494,6 +541,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.s: home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -506,6 +554,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.obj: home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -518,6 +567,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.i: home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -530,6 +580,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.s: home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -542,6 +593,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.obj: home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -554,6 +606,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.i: home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -566,6 +619,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.s: home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -578,6 +632,7 @@ home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -590,6 +645,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -602,6 +658,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -614,6 +671,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -626,6 +684,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -638,6 +697,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -650,6 +710,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -662,6 +723,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -674,6 +736,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -686,6 +749,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -698,6 +762,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -710,6 +775,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -722,6 +788,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -734,6 +801,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -746,6 +814,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -758,6 +827,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -770,6 +840,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -782,6 +853,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -794,6 +866,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -806,6 +879,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -818,6 +892,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -830,6 +905,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -842,6 +918,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -854,6 +931,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -866,6 +944,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -878,6 +957,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -890,6 +970,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -902,6 +983,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -914,6 +996,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -926,6 +1009,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -938,6 +1022,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -950,6 +1035,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -962,6 +1048,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -974,6 +1061,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -986,6 +1074,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -998,6 +1087,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1010,6 +1100,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1022,6 +1113,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1034,6 +1126,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1046,6 +1139,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1058,6 +1152,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1070,6 +1165,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1082,6 +1178,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1094,6 +1191,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1106,6 +1204,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1118,6 +1217,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1130,6 +1230,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1142,6 +1243,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1154,6 +1256,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1166,6 +1269,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1178,6 +1282,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1190,6 +1295,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1202,6 +1308,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1214,6 +1321,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1226,6 +1334,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1238,6 +1347,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1250,6 +1360,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1262,6 +1373,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1274,6 +1386,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1286,6 +1399,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1298,6 +1412,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1310,6 +1425,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1322,6 +1438,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1334,6 +1451,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1346,6 +1464,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1358,6 +1477,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1370,6 +1490,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1382,6 +1503,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1394,6 +1516,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1406,6 +1529,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1418,6 +1542,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1430,6 +1555,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1442,6 +1568,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1454,6 +1581,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1466,6 +1594,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1478,6 +1607,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1490,6 +1620,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1502,6 +1633,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1514,6 +1646,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1526,6 +1659,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1538,6 +1672,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1550,6 +1685,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1562,6 +1698,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1574,6 +1711,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1586,6 +1724,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1598,6 +1737,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1610,6 +1750,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1622,6 +1763,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1634,6 +1776,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1646,6 +1789,7 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 ws2811.obj: ws2811.c.obj
@@ -1671,6 +1815,30 @@ ws2811.s: ws2811.c.s
 ws2811.c.s:
 	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811.dir/ws2811.c.s
 .PHONY : ws2811.c.s
+
+ws2811_button_game.obj: ws2811_button_game.c.obj
+.PHONY : ws2811_button_game.obj
+
+# target to build an object file
+ws2811_button_game.c.obj:
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/ws2811_button_game.c.obj
+.PHONY : ws2811_button_game.c.obj
+
+ws2811_button_game.i: ws2811_button_game.c.i
+.PHONY : ws2811_button_game.i
+
+# target to preprocess a source file
+ws2811_button_game.c.i:
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/ws2811_button_game.c.i
+.PHONY : ws2811_button_game.c.i
+
+ws2811_button_game.s: ws2811_button_game.c.s
+.PHONY : ws2811_button_game.s
+
+# target to generate assembly for a file
+ws2811_button_game.c.s:
+	cd /home/vboxuser/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/ws2811_button_game.c.s
+.PHONY : ws2811_button_game.c.s
 
 ws2811_button_test.obj: ws2811_button_test.c.obj
 .PHONY : ws2811_button_test.obj
@@ -1776,12 +1944,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... pio_ws2811_button_game_ws2811_pio_h"
 	@echo "... pio_ws2811_button_test_ws2811_pio_h"
 	@echo "... pio_ws2811_colorful_ws2811_pio_h"
 	@echo "... pio_ws2811_rainbow_ws2811_pio_h"
 	@echo "... pio_ws2811_wave_ws2811_pio_h"
 	@echo "... pio_ws2811_ws2811_pio_h"
 	@echo "... pio_ws2811"
+	@echo "... pio_ws2811_button_game"
 	@echo "... pio_ws2811_button_test"
 	@echo "... pio_ws2811_colorful"
 	@echo "... pio_ws2811_rainbow"
@@ -1905,6 +2075,9 @@ help:
 	@echo "... ws2811.obj"
 	@echo "... ws2811.i"
 	@echo "... ws2811.s"
+	@echo "... ws2811_button_game.obj"
+	@echo "... ws2811_button_game.i"
+	@echo "... ws2811_button_game.s"
 	@echo "... ws2811_button_test.obj"
 	@echo "... ws2811_button_test.i"
 	@echo "... ws2811_button_test.s"
