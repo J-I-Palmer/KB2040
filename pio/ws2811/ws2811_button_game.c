@@ -54,7 +54,7 @@ int main(){
 				pio_sm_put_blocking(pio, sm, pixel);
 		}
 
-		sleep_ms(500);
+		sleep_ms(1000);
 
 		while(!reset){
 			sleep_ms(100);
