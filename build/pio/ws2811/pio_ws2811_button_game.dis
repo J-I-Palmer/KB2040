@@ -481,7 +481,7 @@ Disassembly of section .text:
 10000454:	d402      	bmi.n	1000045c <main+0x108>
 10000456:	3f01      	subs	r7, #1
 10000458:	d2e6      	bcs.n	10000428 <main+0xd4>
-1000045a:	e025      	b.n	100004a8 <main+0x154>
+1000045a:	e026      	b.n	100004aa <main+0x156>
 1000045c:	2001      	movs	r0, #1
 1000045e:	f000 fd71 	bl	10000f44 <sleep_ms>
 10000462:	464b      	mov	r3, r9
@@ -490,46 +490,46 @@ Disassembly of section .text:
 10000468:	0a92      	lsrs	r2, r2, #10
 1000046a:	4013      	ands	r3, r2
 1000046c:	3f01      	subs	r7, #1
-1000046e:	d319      	bcc.n	100004a4 <main+0x150>
+1000046e:	d31a      	bcc.n	100004a6 <main+0x152>
 10000470:	2b00      	cmp	r3, #0
 10000472:	d0d9      	beq.n	10000428 <main+0xd4>
-10000474:	20c8      	movs	r0, #200	@ 0xc8
-10000476:	f000 fd65 	bl	10000f44 <sleep_ms>
-1000047a:	23d0      	movs	r3, #208	@ 0xd0
-1000047c:	061b      	lsls	r3, r3, #24
-1000047e:	4698      	mov	r8, r3
-10000480:	2701      	movs	r7, #1
-10000482:	2064      	movs	r0, #100	@ 0x64
-10000484:	f000 fd5e 	bl	10000f44 <sleep_ms>
-10000488:	4643      	mov	r3, r8
-1000048a:	685b      	ldr	r3, [r3, #4]
-1000048c:	0a9b      	lsrs	r3, r3, #10
-1000048e:	421f      	tst	r7, r3
-10000490:	d0f7      	beq.n	10000482 <main+0x12e>
-10000492:	2001      	movs	r0, #1
-10000494:	f000 fd56 	bl	10000f44 <sleep_ms>
-10000498:	4643      	mov	r3, r8
-1000049a:	685b      	ldr	r3, [r3, #4]
-1000049c:	0a9b      	lsrs	r3, r3, #10
-1000049e:	421f      	tst	r7, r3
-100004a0:	d1b2      	bne.n	10000408 <main+0xb4>
-100004a2:	e7ee      	b.n	10000482 <main+0x12e>
-100004a4:	2b00      	cmp	r3, #0
-100004a6:	d1e5      	bne.n	10000474 <main+0x120>
-100004a8:	21ff      	movs	r1, #255	@ 0xff
-100004aa:	2232      	movs	r2, #50	@ 0x32
-100004ac:	0609      	lsls	r1, r1, #24
-100004ae:	6863      	ldr	r3, [r4, #4]
-100004b0:	422b      	tst	r3, r5
-100004b2:	d1fc      	bne.n	100004ae <main+0x15a>
-100004b4:	3a01      	subs	r2, #1
-100004b6:	6121      	str	r1, [r4, #16]
-100004b8:	2a00      	cmp	r2, #0
-100004ba:	d1f8      	bne.n	100004ae <main+0x15a>
-100004bc:	26ff      	movs	r6, #255	@ 0xff
-100004be:	0636      	lsls	r6, r6, #24
-100004c0:	e7d8      	b.n	10000474 <main+0x120>
-100004c2:	46c0      	nop			@ (mov r8, r8)
+10000474:	20fa      	movs	r0, #250	@ 0xfa
+10000476:	0040      	lsls	r0, r0, #1
+10000478:	f000 fd64 	bl	10000f44 <sleep_ms>
+1000047c:	23d0      	movs	r3, #208	@ 0xd0
+1000047e:	061b      	lsls	r3, r3, #24
+10000480:	4698      	mov	r8, r3
+10000482:	2701      	movs	r7, #1
+10000484:	2064      	movs	r0, #100	@ 0x64
+10000486:	f000 fd5d 	bl	10000f44 <sleep_ms>
+1000048a:	4643      	mov	r3, r8
+1000048c:	685b      	ldr	r3, [r3, #4]
+1000048e:	0a9b      	lsrs	r3, r3, #10
+10000490:	421f      	tst	r7, r3
+10000492:	d0f7      	beq.n	10000484 <main+0x130>
+10000494:	2001      	movs	r0, #1
+10000496:	f000 fd55 	bl	10000f44 <sleep_ms>
+1000049a:	4643      	mov	r3, r8
+1000049c:	685b      	ldr	r3, [r3, #4]
+1000049e:	0a9b      	lsrs	r3, r3, #10
+100004a0:	421f      	tst	r7, r3
+100004a2:	d1b1      	bne.n	10000408 <main+0xb4>
+100004a4:	e7ee      	b.n	10000484 <main+0x130>
+100004a6:	2b00      	cmp	r3, #0
+100004a8:	d1e4      	bne.n	10000474 <main+0x120>
+100004aa:	21ff      	movs	r1, #255	@ 0xff
+100004ac:	2232      	movs	r2, #50	@ 0x32
+100004ae:	0609      	lsls	r1, r1, #24
+100004b0:	6863      	ldr	r3, [r4, #4]
+100004b2:	422b      	tst	r3, r5
+100004b4:	d1fc      	bne.n	100004b0 <main+0x15c>
+100004b6:	3a01      	subs	r2, #1
+100004b8:	6121      	str	r1, [r4, #16]
+100004ba:	2a00      	cmp	r2, #0
+100004bc:	d1f8      	bne.n	100004b0 <main+0x15c>
+100004be:	26ff      	movs	r6, #255	@ 0xff
+100004c0:	0636      	lsls	r6, r6, #24
+100004c2:	e7d7      	b.n	10000474 <main+0x120>
 100004c4:	100023c0 	.word	0x100023c0
 100004c8:	50200000 	.word	0x50200000
 100004cc:	9fffffff 	.word	0x9fffffff
