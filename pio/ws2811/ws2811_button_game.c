@@ -25,19 +25,19 @@ int main(){
 
 	while(true){
 		reset = false;
-		pixel = 0x00000000;
 
 		for(int i = 0; i < NUM_LEDS; i++)
 			pio_sm_put_blocking(pio, sm, pixel);
 		sleep_ms(500);
 
-		for(int i = NUM_LEDS; i > 0 && pressed == false; i--){
+		for(int i = NUM_LEDS-1; i >= 0 && pressed == false; i--){
 			for(int j = 0; j < NUM_LEDS; j++){
-				if(i == j)
+				if(i == j){
 					pixel = 0x0000ff00;
-				else
+				}
+				else{
 					pixel = 0x00000000;
-
+				}
 				pio_sm_put_blocking(pio, sm, pixel);
 			}
 			sleep_ms(40);
@@ -61,6 +61,5 @@ int main(){
 			}
 		}
 	}
-
 	return 0;
 }
