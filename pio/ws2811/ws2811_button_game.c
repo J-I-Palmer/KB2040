@@ -31,10 +31,15 @@ int main(){
 			pio_sm_put_blocking(pio, sm, pixel);
 		sleep_ms(500);
 
-		pixel = 0x0000ff00; // RRGGBB--
 		for(int i = NUM_LEDS; i > 0 && pressed == false; i--){
-			for(int j = 0; j < NUM_LEDS; j++)
+			for(int j = 0; j < NUM_LEDS; j++){
+				if(i == j)
+					pixel = 0x0000ff00;
+				else
+					pixel = 0x00000000;
+
 				pio_sm_put_blocking(pio, sm, pixel);
+			}
 			sleep_ms(40);
 			if (gpio_get(BUTTON_PIN)){
 				sleep_ms(1);
