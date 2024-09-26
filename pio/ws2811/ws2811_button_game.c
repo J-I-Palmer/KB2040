@@ -17,7 +17,7 @@ int main(){
 	ws2811_program_init(pio, sm, offset, LED_PIN, 800000, 0);
 
 	uint32_t pixel = 0x00000000;
-	bool pressed = false;
+	bool pressed;
 	bool reset;
 
 	gpio_init(BUTTON_PIN);
@@ -48,21 +48,24 @@ int main(){
 			}
 		}
 
+		sleep_ms(40);
+
 		if(!pressed){
 			pixel = 0xff000000;
 			for(int i = 0; i < NUM_LEDS; i++)
 				pio_sm_put_blocking(pio, sm, pixel);
 		}
 
-		sleep_ms(1000);
+		sleep_ms(5000);
 
 		while(!reset){
-			sleep_ms(100);
 			if(gpio_get(BUTTON_PIN)){
 				sleep_ms(1);
 				reset = gpio_get(BUTTON_PIN);
 			}
+			sleep_ms(100);
 		}
 	}
+
 	return 0;
 }
