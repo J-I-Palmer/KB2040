@@ -28,10 +28,13 @@ int main(){
 	while(true){
 		pressed = false;
 
+		// Turns all LEDs off for 0.5 secs
 		for(int i = 0; i < NUM_LEDS; i++)
 			pio_sm_put_blocking(pio, sm, pixel);
 		sleep_ms(500);
 
+		// Continues until the user presses the button or
+		// the last LED has been lit
 		for(int i = NUM_LEDS-1; i >= 0 && pressed == false; i--){
 			for(int j = 0; j < NUM_LEDS; j++){
 				if(i == j){
@@ -51,6 +54,8 @@ int main(){
 
 		sleep_ms(40);
 
+		// If the user did not press the button in time,
+		// make all LEDs red
 		if(!pressed){
 			pixel = 0xff000000;
 			for(int i = 0; i < NUM_LEDS; i++)
@@ -59,6 +64,7 @@ int main(){
 
 		sleep_ms(5000);
 
+		// User must press the button again to reset the game
 		reset = false;
 		while(!reset){
 			if(gpio_get(BUTTON_PIN)){
