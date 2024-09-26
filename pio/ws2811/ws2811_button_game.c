@@ -5,7 +5,8 @@
 #include "ws2811.pio.h"
 
 int main(){
-
+	
+	// Setting I/O pins
 	const uint LED_PIN = 3;
 	const int NUM_LEDS = 50;
 	const uint BUTTON_PIN = 10;
@@ -20,11 +21,11 @@ int main(){
 	bool pressed;
 	bool reset;
 
+	// Initializing button pin and setting data direction to input
 	gpio_init(BUTTON_PIN);
 	gpio_set_dir(BUTTON_PIN, GPIO_IN);
 
 	while(true){
-		reset = false;
 		pressed = false;
 
 		for(int i = 0; i < NUM_LEDS; i++)
@@ -58,6 +59,7 @@ int main(){
 
 		sleep_ms(5000);
 
+		reset = false;
 		while(!reset){
 			if(gpio_get(BUTTON_PIN)){
 				sleep_ms(1);
