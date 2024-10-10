@@ -73,8 +73,8 @@ int main(){
 				break;
 			// St. Patrick's Day
 			case 1:
-				color1 = 0x00fa4900; // Irish Green
-				color2 = 0xffa70000; // Golden Yellow
+				color1 = 0x00ff1900; // Green
+				color2 = 0xffcc1100; // Yellow
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
 				counter = (counter + 1) % NUM_HOLIDAYS;
 				break;
