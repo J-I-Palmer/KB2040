@@ -61,7 +61,7 @@ int main(){
 	uint32_t color3 = 0x00000000;
 
 	// Variable for counting button presses
-	uint counter = 0;
+	int counter = 0;
 	while(true){
 		switch(counter){
 			// Valentine's Day
@@ -69,21 +69,18 @@ int main(){
 				color1 = 0xff000000; // Red
 				color2 = 0xff101b00; // Pink
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
-				counter = (counter + 1) % NUM_HOLIDAYS;
 				break;
 			// St. Patrick's Day
 			case 1:
 				color1 = 0x00ff1900; // Green
 				color2 = 0xffcc1100; // Yellow
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
-				counter = (counter + 1) % NUM_HOLIDAYS;
 				break;
 			// Easter
 			case 2:
 				color1 = 0x9cd7ff00; // Pastel Blue
 				color2 = 0xffacd900; // Pastel Pink
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
-				counter = (counter + 1) % NUM_HOLIDAYS;
 				break;
 			// July 4th
 			case 3:
@@ -91,33 +88,30 @@ int main(){
 				color2 = 0xffffff00; // White
 				color3 = 0x0000ff00; // Blue
 				threeColor(color1, color2, color3, str1_pio, str2_pio, sm1, sm2);
-				counter = (counter + 1) & NUM_HOLIDAYS;
 				break;
 			// Halloween
 			case 4:
 				color1 = 0xff9a0000; // Orange
 				color2 = 0xa020f000; // Purple
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
-				counter = (counter + 1) % NUM_HOLIDAYS;
 				break;
 			// Thanksgiving
 			case 5:
 				color1 = 0x7b481c00; // Tawny Brown
 				color2 = 0xdd571c00; // Fire Orange
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
-				counter = (counter + 1) % NUM_HOLIDAYS;
 				break;
 			// Christmas
 			case 6:
 				color1 = 0xff000000; // Red
 				color2 = 0x00ff0000; // Green
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
-				counter = (counter + 1) & NUM_HOLIDAYS;
 				break;
 			default:
-				counter = 0;
+				counter = -1;
 				break;
 		}
+		counter++;
 	}
 
 	return 0;
