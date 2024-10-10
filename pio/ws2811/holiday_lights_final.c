@@ -114,6 +114,9 @@ int main(){
 				twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
 				counter = (counter + 1) & NUM_HOLIDAYS;
 				break;
+			default:
+				counter = 0;
+				break;
 		}
 	}
 
