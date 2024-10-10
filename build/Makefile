@@ -1651,6 +1651,19 @@ pio_ws2811_2string_test/fast:
 .PHONY : pio_ws2811_2string_test/fast
 
 #=============================================================================
+# Target rules for targets named pio_ws2811_holiday_lights
+
+# Build rule for target.
+pio_ws2811_holiday_lights: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_ws2811_holiday_lights
+.PHONY : pio_ws2811_holiday_lights
+
+# fast build rule for target.
+pio_ws2811_holiday_lights/fast:
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/build
+.PHONY : pio_ws2811_holiday_lights/fast
+
+#=============================================================================
 # Target rules for targets named pio_ws2811_ws2811_pio_h
 
 # Build rule for target.
@@ -1740,6 +1753,19 @@ pio_ws2811_2string_test_ws2811_pio_h: cmake_check_build_system
 pio_ws2811_2string_test_ws2811_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_2string_test_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_2string_test_ws2811_pio_h.dir/build
 .PHONY : pio_ws2811_2string_test_ws2811_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pio_ws2811_holiday_lights_ws2811_pio_h
+
+# Build rule for target.
+pio_ws2811_holiday_lights_ws2811_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_ws2811_holiday_lights_ws2811_pio_h
+.PHONY : pio_ws2811_holiday_lights_ws2811_pio_h
+
+# fast build rule for target.
+pio_ws2811_holiday_lights_ws2811_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/build
+.PHONY : pio_ws2811_holiday_lights_ws2811_pio_h/fast
 
 #=============================================================================
 # Target rules for targets named hello_pwm
@@ -2410,6 +2436,7 @@ help:
 	@echo "... pio_ws2811_button_game_ws2811_pio_h"
 	@echo "... pio_ws2811_button_test_ws2811_pio_h"
 	@echo "... pio_ws2811_colorful_ws2811_pio_h"
+	@echo "... pio_ws2811_holiday_lights_ws2811_pio_h"
 	@echo "... pio_ws2811_rainbow_ws2811_pio_h"
 	@echo "... pio_ws2811_wave_ws2811_pio_h"
 	@echo "... pio_ws2811_ws2811_pio_h"
@@ -2506,6 +2533,7 @@ help:
 	@echo "... pio_ws2811_button_game"
 	@echo "... pio_ws2811_button_test"
 	@echo "... pio_ws2811_colorful"
+	@echo "... pio_ws2811_holiday_lights"
 	@echo "... pio_ws2811_rainbow"
 	@echo "... pio_ws2811_wave"
 	@echo "... pio_ws2812"

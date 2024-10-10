@@ -3046,6 +3046,7 @@ pio/ws2811/all: pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/all
 pio/ws2811/all: pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/all
 pio/ws2811/all: pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/all
 pio/ws2811/all: pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/all
+pio/ws2811/all: pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/all
 .PHONY : pio/ws2811/all
 
 # Recursive "preinstall" directory target.
@@ -3060,6 +3061,7 @@ pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_rainbow.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_button_test.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/clean
+pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_ws2811_pio_h.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_colorful_ws2811_pio_h.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_wave_ws2811_pio_h.dir/clean
@@ -3067,6 +3069,7 @@ pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_rainbow_ws2811_pio_h.dir/clea
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_button_test_ws2811_pio_h.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/clean
 pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_2string_test_ws2811_pio_h.dir/clean
+pio/ws2811/clean: pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/clean
 .PHONY : pio/ws2811/clean
 
 #=============================================================================
@@ -4661,12 +4664,12 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean:
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/all: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=6 "Built target cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule
@@ -4930,12 +4933,12 @@ adc/joystick_display/CMakeFiles/joystick_display.dir/all: pico-sdk/src/rp2_commo
 adc/joystick_display/CMakeFiles/joystick_display.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f adc/joystick_display/CMakeFiles/joystick_display.dir/build.make adc/joystick_display/CMakeFiles/joystick_display.dir/depend
 	$(MAKE) $(MAKESILENT) -f adc/joystick_display/CMakeFiles/joystick_display.dir/build.make adc/joystick_display/CMakeFiles/joystick_display.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=30 "Built target joystick_display"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target joystick_display"
 .PHONY : adc/joystick_display/CMakeFiles/joystick_display.dir/all
 
 # Build rule for subdir invocation for target.
 adc/joystick_display/CMakeFiles/joystick_display.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 adc/joystick_display/CMakeFiles/joystick_display.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : adc/joystick_display/CMakeFiles/joystick_display.dir/rule
@@ -4957,12 +4960,12 @@ adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/all: pico-sdk/src/rp2
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/build.make adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/depend
 	$(MAKE) $(MAKESILENT) -f adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/build.make adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=43 "Built target onboard_temperature"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target onboard_temperature"
 .PHONY : adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/all
 
 # Build rule for subdir invocation for target.
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/rule
@@ -5038,12 +5041,12 @@ clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/all: pico-sdk/s
 clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/build.make clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/depend
 	$(MAKE) $(MAKESILENT) -f clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/build.make clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=6 "Built target clocks_detached_clk_peri"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target clocks_detached_clk_peri"
 .PHONY : clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/all
 
 # Build rule for subdir invocation for target.
 clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : clocks/detached_clk_peri/CMakeFiles/clocks_detached_clk_peri.dir/rule
@@ -5092,12 +5095,12 @@ clocks/hello_gpout/CMakeFiles/hello_gpout.dir/all: pico-sdk/src/rp2_common/boot_
 clocks/hello_gpout/CMakeFiles/hello_gpout.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f clocks/hello_gpout/CMakeFiles/hello_gpout.dir/build.make clocks/hello_gpout/CMakeFiles/hello_gpout.dir/depend
 	$(MAKE) $(MAKESILENT) -f clocks/hello_gpout/CMakeFiles/hello_gpout.dir/build.make clocks/hello_gpout/CMakeFiles/hello_gpout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=19 "Built target hello_gpout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target hello_gpout"
 .PHONY : clocks/hello_gpout/CMakeFiles/hello_gpout.dir/all
 
 # Build rule for subdir invocation for target.
 clocks/hello_gpout/CMakeFiles/hello_gpout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clocks/hello_gpout/CMakeFiles/hello_gpout.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : clocks/hello_gpout/CMakeFiles/hello_gpout.dir/rule
@@ -5415,12 +5418,12 @@ flash/program/CMakeFiles/flash_program.dir/all: pico-sdk/src/rp2_common/boot_sta
 flash/program/CMakeFiles/flash_program.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f flash/program/CMakeFiles/flash_program.dir/build.make flash/program/CMakeFiles/flash_program.dir/depend
 	$(MAKE) $(MAKESILENT) -f flash/program/CMakeFiles/flash_program.dir/build.make flash/program/CMakeFiles/flash_program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=12 "Built target flash_program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target flash_program"
 .PHONY : flash/program/CMakeFiles/flash_program.dir/all
 
 # Build rule for subdir invocation for target.
 flash/program/CMakeFiles/flash_program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 flash/program/CMakeFiles/flash_program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : flash/program/CMakeFiles/flash_program.dir/rule
@@ -5442,12 +5445,12 @@ flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/all: pico-sdk/src/rp2_common/boot_sta
 flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/build.make flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/depend
 	$(MAKE) $(MAKESILENT) -f flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/build.make flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target flash_ssi_dma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=12 "Built target flash_ssi_dma"
 .PHONY : flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/all
 
 # Build rule for subdir invocation for target.
 flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : flash/ssi_dma/CMakeFiles/flash_ssi_dma.dir/rule
@@ -5631,12 +5634,12 @@ i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/all: pico-sdk/src/rp2_common/boot_s
 i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/build.make i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/build.make i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target lcd_1602_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=30 "Built target lcd_1602_i2c"
 .PHONY : i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/lcd_1602_i2c/CMakeFiles/lcd_1602_i2c.dir/rule
@@ -5685,12 +5688,12 @@ i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/all: pico-sdk/src/rp2_common/boot_sta
 i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/build.make i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/build.make i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target mcp9808_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=34 "Built target mcp9808_i2c"
 .PHONY : i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/mcp9808_i2c/CMakeFiles/mcp9808_i2c.dir/rule
@@ -5712,12 +5715,12 @@ i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/all: pico-sdk/src/rp2_common/boot_sta
 i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/build.make i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/build.make i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=36 "Built target mma8451_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target mma8451_i2c"
 .PHONY : i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/mma8451_i2c/CMakeFiles/mma8451_i2c.dir/rule
@@ -5739,12 +5742,12 @@ i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/all: pico-sdk/src/rp2_common/boot
 i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/build.make i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/build.make i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target mpl3115a2_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=36 "Built target mpl3115a2_i2c"
 .PHONY : i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/mpl3115a2_i2c/CMakeFiles/mpl3115a2_i2c.dir/rule
@@ -5793,12 +5796,12 @@ i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/all: pico-sdk/src/rp2_common/boot_sta
 i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/build.make i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/build.make i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target ssd1306_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=77 "Built target ssd1306_i2c"
 .PHONY : i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/ssd1306_i2c/CMakeFiles/ssd1306_i2c.dir/rule
@@ -5820,7 +5823,7 @@ i2c/pa1010d_i2c/CMakeFiles/pa1010d_i2c.dir/all: pico-sdk/src/rp2_common/boot_sta
 i2c/pa1010d_i2c/CMakeFiles/pa1010d_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/pa1010d_i2c/CMakeFiles/pa1010d_i2c.dir/build.make i2c/pa1010d_i2c/CMakeFiles/pa1010d_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/pa1010d_i2c/CMakeFiles/pa1010d_i2c.dir/build.make i2c/pa1010d_i2c/CMakeFiles/pa1010d_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=44 "Built target pa1010d_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=43 "Built target pa1010d_i2c"
 .PHONY : i2c/pa1010d_i2c/CMakeFiles/pa1010d_i2c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5847,12 +5850,12 @@ i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/all: pico-sdk/src/rp2_common/boot_sta
 i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/build.make i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/build.make i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pcf8523_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=44 "Built target pcf8523_i2c"
 .PHONY : i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/pcf8523_i2c/CMakeFiles/pcf8523_i2c.dir/rule
@@ -5874,12 +5877,12 @@ i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/all: pico-sdk/src/rp2_common/boot_sta
 i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/build.make i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/build.make i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target ht16k33_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=28 "Built target ht16k33_i2c"
 .PHONY : i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/ht16k33_i2c/CMakeFiles/ht16k33_i2c.dir/rule
@@ -5901,12 +5904,12 @@ i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/all: pico-sdk/src/rp2_common/boot
 i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/build.make i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/build.make i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=72 "Built target slave_mem_i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target slave_mem_i2c"
 .PHONY : i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/all
 
 # Build rule for subdir invocation for target.
 i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : i2c/slave_mem_i2c/CMakeFiles/slave_mem_i2c.dir/rule
@@ -5928,12 +5931,12 @@ interp/hello_interp/CMakeFiles/hello_interp.dir/all: pico-sdk/src/rp2_common/boo
 interp/hello_interp/CMakeFiles/hello_interp.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f interp/hello_interp/CMakeFiles/hello_interp.dir/build.make interp/hello_interp/CMakeFiles/hello_interp.dir/depend
 	$(MAKE) $(MAKESILENT) -f interp/hello_interp/CMakeFiles/hello_interp.dir/build.make interp/hello_interp/CMakeFiles/hello_interp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target hello_interp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=19 "Built target hello_interp"
 .PHONY : interp/hello_interp/CMakeFiles/hello_interp.dir/all
 
 # Build rule for subdir invocation for target.
 interp/hello_interp/CMakeFiles/hello_interp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interp/hello_interp/CMakeFiles/hello_interp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : interp/hello_interp/CMakeFiles/hello_interp.dir/rule
@@ -6063,12 +6066,12 @@ picoboard/blinky/CMakeFiles/picoboard_blinky.dir/all: pico-sdk/src/rp2_common/bo
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f picoboard/blinky/CMakeFiles/picoboard_blinky.dir/build.make picoboard/blinky/CMakeFiles/picoboard_blinky.dir/depend
 	$(MAKE) $(MAKESILENT) -f picoboard/blinky/CMakeFiles/picoboard_blinky.dir/build.make picoboard/blinky/CMakeFiles/picoboard_blinky.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=46 "Built target picoboard_blinky"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target picoboard_blinky"
 .PHONY : picoboard/blinky/CMakeFiles/picoboard_blinky.dir/all
 
 # Build rule for subdir invocation for target.
 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picoboard/blinky/CMakeFiles/picoboard_blinky.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : picoboard/blinky/CMakeFiles/picoboard_blinky.dir/rule
@@ -6090,12 +6093,12 @@ picoboard/button/CMakeFiles/picoboard_button.dir/all: pico-sdk/src/rp2_common/bo
 picoboard/button/CMakeFiles/picoboard_button.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f picoboard/button/CMakeFiles/picoboard_button.dir/build.make picoboard/button/CMakeFiles/picoboard_button.dir/depend
 	$(MAKE) $(MAKESILENT) -f picoboard/button/CMakeFiles/picoboard_button.dir/build.make picoboard/button/CMakeFiles/picoboard_button.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target picoboard_button"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=46 "Built target picoboard_button"
 .PHONY : picoboard/button/CMakeFiles/picoboard_button.dir/all
 
 # Build rule for subdir invocation for target.
 picoboard/button/CMakeFiles/picoboard_button.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picoboard/button/CMakeFiles/picoboard_button.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : picoboard/button/CMakeFiles/picoboard_button.dir/rule
@@ -6172,12 +6175,12 @@ pio/apa102/CMakeFiles/pio_apa102.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 pio/apa102/CMakeFiles/pio_apa102.dir/all: pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/apa102/CMakeFiles/pio_apa102.dir/build.make pio/apa102/CMakeFiles/pio_apa102.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/apa102/CMakeFiles/pio_apa102.dir/build.make pio/apa102/CMakeFiles/pio_apa102.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=48 "Built target pio_apa102"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_apa102"
 .PHONY : pio/apa102/CMakeFiles/pio_apa102.dir/all
 
 # Build rule for subdir invocation for target.
 pio/apa102/CMakeFiles/pio_apa102.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/apa102/CMakeFiles/pio_apa102.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/apa102/CMakeFiles/pio_apa102.dir/rule
@@ -6388,12 +6391,12 @@ pio/hub75/CMakeFiles/pio_hub75.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 pio/hub75/CMakeFiles/pio_hub75.dir/all: pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=51 "Built target pio_hub75"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_hub75"
 .PHONY : pio/hub75/CMakeFiles/pio_hub75.dir/all
 
 # Build rule for subdir invocation for target.
 pio/hub75/CMakeFiles/pio_hub75.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/CMakeFiles/pio_hub75.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/hub75/CMakeFiles/pio_hub75.dir/rule
@@ -6442,12 +6445,12 @@ pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/a
 pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/all: pio/i2c/CMakeFiles/pio_i2c_bus_scan_i2c_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/build.make pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/build.make pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_i2c_bus_scan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=51 "Built target pio_i2c_bus_scan"
 .PHONY : pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/all
 
 # Build rule for subdir invocation for target.
 pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/i2c/CMakeFiles/pio_i2c_bus_scan.dir/rule
@@ -6575,12 +6578,12 @@ pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/all: pico-sdk/
 pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/all: pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library_nec_receive_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/build.make pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/build.make pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target nec_receive_library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=41 "Built target nec_receive_library"
 .PHONY : pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/all
 
 # Build rule for subdir invocation for target.
 pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/ir_nec/nec_receive_library/CMakeFiles/nec_receive_library.dir/rule
@@ -6635,7 +6638,7 @@ pio/ir_nec/ir_loopback/CMakeFiles/pio_ir_loopback.dir/all: pio/ir_nec/nec_receiv
 
 # Build rule for subdir invocation for target.
 pio/ir_nec/ir_loopback/CMakeFiles/pio_ir_loopback.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ir_nec/ir_loopback/CMakeFiles/pio_ir_loopback.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/ir_nec/ir_loopback/CMakeFiles/pio_ir_loopback.dir/rule
@@ -6657,12 +6660,12 @@ pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/all: pico-sdk/src/rp2_commo
 pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/build.make pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/build.make pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=53 "Built target pio_logic_analyser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_logic_analyser"
 .PHONY : pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/all
 
 # Build rule for subdir invocation for target.
 pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/logic_analyser/CMakeFiles/pio_logic_analyser.dir/rule
@@ -6685,7 +6688,7 @@ pio/manchester_encoding/CMakeFiles/pio_manchester_encoding.dir/all: blink/CMakeF
 pio/manchester_encoding/CMakeFiles/pio_manchester_encoding.dir/all: pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/manchester_encoding/CMakeFiles/pio_manchester_encoding.dir/build.make pio/manchester_encoding/CMakeFiles/pio_manchester_encoding.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/manchester_encoding/CMakeFiles/pio_manchester_encoding.dir/build.make pio/manchester_encoding/CMakeFiles/pio_manchester_encoding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=54 "Built target pio_manchester_encoding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=53 "Built target pio_manchester_encoding"
 .PHONY : pio/manchester_encoding/CMakeFiles/pio_manchester_encoding.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6739,12 +6742,12 @@ pio/onewire/CMakeFiles/pio_onewire.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/al
 pio/onewire/CMakeFiles/pio_onewire.dir/all: pio/onewire/onewire_library/CMakeFiles/onewire_library_onewire_library_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/onewire/CMakeFiles/pio_onewire.dir/build.make pio/onewire/CMakeFiles/pio_onewire.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/onewire/CMakeFiles/pio_onewire.dir/build.make pio/onewire/CMakeFiles/pio_onewire.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_onewire"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=54 "Built target pio_onewire"
 .PHONY : pio/onewire/CMakeFiles/pio_onewire.dir/all
 
 # Build rule for subdir invocation for target.
 pio/onewire/CMakeFiles/pio_onewire.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/onewire/CMakeFiles/pio_onewire.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/onewire/CMakeFiles/pio_onewire.dir/rule
@@ -6793,12 +6796,12 @@ pio/pio_blink/CMakeFiles/pio_blink.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/al
 pio/pio_blink/CMakeFiles/pio_blink.dir/all: pio/pio_blink/CMakeFiles/pio_blink_blink_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/pio_blink/CMakeFiles/pio_blink.dir/build.make pio/pio_blink/CMakeFiles/pio_blink.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/pio_blink/CMakeFiles/pio_blink.dir/build.make pio/pio_blink/CMakeFiles/pio_blink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=48 "Built target pio_blink"
 .PHONY : pio/pio_blink/CMakeFiles/pio_blink.dir/all
 
 # Build rule for subdir invocation for target.
 pio/pio_blink/CMakeFiles/pio_blink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/pio_blink/CMakeFiles/pio_blink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/pio_blink/CMakeFiles/pio_blink.dir/rule
@@ -6955,12 +6958,12 @@ pio/spi/CMakeFiles/pio_spi_flash.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 pio/spi/CMakeFiles/pio_spi_flash.dir/all: pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/spi/CMakeFiles/pio_spi_flash.dir/build.make pio/spi/CMakeFiles/pio_spi_flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/spi/CMakeFiles/pio_spi_flash.dir/build.make pio/spi/CMakeFiles/pio_spi_flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=57 "Built target pio_spi_flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_spi_flash"
 .PHONY : pio/spi/CMakeFiles/pio_spi_flash.dir/all
 
 # Build rule for subdir invocation for target.
 pio/spi/CMakeFiles/pio_spi_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/spi/CMakeFiles/pio_spi_flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/spi/CMakeFiles/pio_spi_flash.dir/rule
@@ -7009,7 +7012,7 @@ pio/spi/CMakeFiles/pio_spi_loopback.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/a
 pio/spi/CMakeFiles/pio_spi_loopback.dir/all: pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/spi/CMakeFiles/pio_spi_loopback.dir/build.make pio/spi/CMakeFiles/pio_spi_loopback.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/spi/CMakeFiles/pio_spi_loopback.dir/build.make pio/spi/CMakeFiles/pio_spi_loopback.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=58 "Built target pio_spi_loopback"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=57 "Built target pio_spi_loopback"
 .PHONY : pio/spi/CMakeFiles/pio_spi_loopback.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7066,12 +7069,12 @@ pio/squarewave/CMakeFiles/pio_squarewave.dir/all: pio/squarewave/CMakeFiles/pio_
 pio/squarewave/CMakeFiles/pio_squarewave.dir/all: pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/squarewave/CMakeFiles/pio_squarewave.dir/build.make pio/squarewave/CMakeFiles/pio_squarewave.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/squarewave/CMakeFiles/pio_squarewave.dir/build.make pio/squarewave/CMakeFiles/pio_squarewave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_squarewave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=58 "Built target pio_squarewave"
 .PHONY : pio/squarewave/CMakeFiles/pio_squarewave.dir/all
 
 # Build rule for subdir invocation for target.
 pio/squarewave/CMakeFiles/pio_squarewave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/squarewave/CMakeFiles/pio_squarewave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/squarewave/CMakeFiles/pio_squarewave.dir/rule
@@ -7252,12 +7255,12 @@ pio/uart_rx/CMakeFiles/pio_uart_rx.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/al
 pio/uart_rx/CMakeFiles/pio_uart_rx.dir/all: pio/uart_rx/CMakeFiles/pio_uart_rx_uart_rx_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/uart_rx/CMakeFiles/pio_uart_rx.dir/build.make pio/uart_rx/CMakeFiles/pio_uart_rx.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/uart_rx/CMakeFiles/pio_uart_rx.dir/build.make pio/uart_rx/CMakeFiles/pio_uart_rx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=60 "Built target pio_uart_rx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_uart_rx"
 .PHONY : pio/uart_rx/CMakeFiles/pio_uart_rx.dir/all
 
 # Build rule for subdir invocation for target.
 pio/uart_rx/CMakeFiles/pio_uart_rx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/uart_rx/CMakeFiles/pio_uart_rx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/uart_rx/CMakeFiles/pio_uart_rx.dir/rule
@@ -7306,7 +7309,7 @@ pio/uart_rx/CMakeFiles/pio_uart_rx_intr.dir/all: blink/CMakeFiles/ELF2UF2Build.d
 pio/uart_rx/CMakeFiles/pio_uart_rx_intr.dir/all: pio/uart_rx/CMakeFiles/pio_uart_rx_intr_uart_rx_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/uart_rx/CMakeFiles/pio_uart_rx_intr.dir/build.make pio/uart_rx/CMakeFiles/pio_uart_rx_intr.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/uart_rx/CMakeFiles/pio_uart_rx_intr.dir/build.make pio/uart_rx/CMakeFiles/pio_uart_rx_intr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=61 "Built target pio_uart_rx_intr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=60 "Built target pio_uart_rx_intr"
 .PHONY : pio/uart_rx/CMakeFiles/pio_uart_rx_intr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7360,12 +7363,12 @@ pio/uart_tx/CMakeFiles/pio_uart_tx.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/al
 pio/uart_tx/CMakeFiles/pio_uart_tx.dir/all: pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/uart_tx/CMakeFiles/pio_uart_tx.dir/build.make pio/uart_tx/CMakeFiles/pio_uart_tx.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/uart_tx/CMakeFiles/pio_uart_tx.dir/build.make pio/uart_tx/CMakeFiles/pio_uart_tx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_uart_tx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=61 "Built target pio_uart_tx"
 .PHONY : pio/uart_tx/CMakeFiles/pio_uart_tx.dir/all
 
 # Build rule for subdir invocation for target.
 pio/uart_tx/CMakeFiles/pio_uart_tx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/uart_tx/CMakeFiles/pio_uart_tx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/uart_tx/CMakeFiles/pio_uart_tx.dir/rule
@@ -7415,12 +7418,12 @@ pio/ws2812/CMakeFiles/pio_ws2812.dir/all: pio/ws2812/CMakeFiles/pio_ws2812_ws281
 pio/ws2812/CMakeFiles/pio_ws2812.dir/all: pio/ws2812/CMakeFiles/pio_ws2812_datasheet.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/ws2812/CMakeFiles/pio_ws2812.dir/build.make pio/ws2812/CMakeFiles/pio_ws2812.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/ws2812/CMakeFiles/pio_ws2812.dir/build.make pio/ws2812/CMakeFiles/pio_ws2812.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=67 "Built target pio_ws2812"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_ws2812"
 .PHONY : pio/ws2812/CMakeFiles/pio_ws2812.dir/all
 
 # Build rule for subdir invocation for target.
 pio/ws2812/CMakeFiles/pio_ws2812.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2812/CMakeFiles/pio_ws2812.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/ws2812/CMakeFiles/pio_ws2812.dir/rule
@@ -7577,12 +7580,12 @@ pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/all: blink/CMakeFiles/ELF2UF2Build
 pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/all: pio/ws2811/CMakeFiles/pio_ws2811_colorful_ws2811_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=65 "Built target pio_ws2811_colorful"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_ws2811_colorful"
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/all
 
 # Build rule for subdir invocation for target.
 pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_colorful.dir/rule
@@ -7605,12 +7608,12 @@ pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/all: blink/CMakeFiles/ELF2UF2Build.dir
 pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/all: pio/ws2811/CMakeFiles/pio_ws2811_wave_ws2811_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_ws2811_wave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=67 "Built target pio_ws2811_wave"
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/all
 
 # Build rule for subdir invocation for target.
 pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_wave.dir/rule
@@ -7689,12 +7692,12 @@ pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/all: blink/CMakeFiles/ELF2UF2Bu
 pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/all: pio/ws2811/CMakeFiles/pio_ws2811_button_game_ws2811_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_ws2811_button_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=63 "Built target pio_ws2811_button_game"
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/all
 
 # Build rule for subdir invocation for target.
 pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_button_game.dir/rule
@@ -7717,12 +7720,12 @@ pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/all: blink/CMakeFiles/ELF2UF2B
 pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/all: pio/ws2811/CMakeFiles/pio_ws2811_2string_test_ws2811_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=63 "Built target pio_ws2811_2string_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_ws2811_2string_test"
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/all
 
 # Build rule for subdir invocation for target.
 pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/rule
@@ -7735,6 +7738,34 @@ pio_ws2811_2string_test: pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/rule
 pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/clean
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_2string_test.dir/clean
+
+#=============================================================================
+# Target rules for target pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir
+
+# All Build rule for target.
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/all: pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/all
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/depend
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=65 "Built target pio_ws2811_holiday_lights"
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/all
+
+# Build rule for subdir invocation for target.
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/rule
+
+# Convenience name for target.
+pio_ws2811_holiday_lights: pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/rule
+.PHONY : pio_ws2811_holiday_lights
+
+# clean rule for target.
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/clean:
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/clean
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights.dir/clean
 
 #=============================================================================
 # Target rules for target pio/ws2811/CMakeFiles/pio_ws2811_ws2811_pio_h.dir
@@ -7919,6 +7950,32 @@ pio/ws2811/CMakeFiles/pio_ws2811_2string_test_ws2811_pio_h.dir/clean:
 .PHONY : pio/ws2811/CMakeFiles/pio_ws2811_2string_test_ws2811_pio_h.dir/clean
 
 #=============================================================================
+# Target rules for target pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir
+
+# All Build rule for target.
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/all: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/all
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/depend
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_ws2811_holiday_lights_ws2811_pio_h"
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/all
+
+# Build rule for subdir invocation for target.
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/rule
+
+# Convenience name for target.
+pio_ws2811_holiday_lights_ws2811_pio_h: pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/rule
+.PHONY : pio_ws2811_holiday_lights_ws2811_pio_h
+
+# clean rule for target.
+pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/clean:
+	$(MAKE) $(MAKESILENT) -f pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/build.make pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/clean
+.PHONY : pio/ws2811/CMakeFiles/pio_ws2811_holiday_lights_ws2811_pio_h.dir/clean
+
+#=============================================================================
 # Target rules for target pwm/hello_pwm/CMakeFiles/hello_pwm.dir
 
 # All Build rule for target.
@@ -8061,12 +8118,12 @@ rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/all: pico-sdk/src/rp2_commo
 rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/build.make rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/depend
 	$(MAKE) $(MAKESILENT) -f rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/build.make rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target rtc_alarm_repeat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=72 "Built target rtc_alarm_repeat"
 .PHONY : rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/all
 
 # Build rule for subdir invocation for target.
 rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : rtc/rtc_alarm_repeat/CMakeFiles/rtc_alarm_repeat.dir/rule
@@ -8277,12 +8334,12 @@ spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/all: pico-sdk/src/rp2_c
 spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/build.make spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/depend
 	$(MAKE) $(MAKESILENT) -f spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/build.make spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=34 "Built target max7219_8x7seg_spi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target max7219_8x7seg_spi"
 .PHONY : spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/all
 
 # Build rule for subdir invocation for target.
 spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : spi/max7219_8x7seg_spi/CMakeFiles/max7219_8x7seg_spi.dir/rule
@@ -8331,12 +8388,12 @@ system/narrow_io_write/CMakeFiles/narrow_io_write.dir/all: pico-sdk/src/rp2_comm
 system/narrow_io_write/CMakeFiles/narrow_io_write.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f system/narrow_io_write/CMakeFiles/narrow_io_write.dir/build.make system/narrow_io_write/CMakeFiles/narrow_io_write.dir/depend
 	$(MAKE) $(MAKESILENT) -f system/narrow_io_write/CMakeFiles/narrow_io_write.dir/build.make system/narrow_io_write/CMakeFiles/narrow_io_write.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=41 "Built target narrow_io_write"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target narrow_io_write"
 .PHONY : system/narrow_io_write/CMakeFiles/narrow_io_write.dir/all
 
 # Build rule for subdir invocation for target.
 system/narrow_io_write/CMakeFiles/narrow_io_write.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 system/narrow_io_write/CMakeFiles/narrow_io_write.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : system/narrow_io_write/CMakeFiles/narrow_io_write.dir/rule
@@ -8439,12 +8496,12 @@ timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/all: pico-sdk/src/rp2_common/
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/build.make timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/depend
 	$(MAKE) $(MAKESILENT) -f timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/build.make timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=77 "Built target timer_lowlevel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target timer_lowlevel"
 .PHONY : timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/all
 
 # Build rule for subdir invocation for target.
 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : timer/timer_lowlevel/CMakeFiles/timer_lowlevel.dir/rule
@@ -8952,12 +9009,12 @@ usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_ca
 usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/build.make usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/depend
 	$(MAKE) $(MAKESILENT) -f usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/build.make usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=93 "Built target tinyusb_dev_video_capture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=93,94 "Built target tinyusb_dev_video_capture"
 .PHONY : usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/all
 
 # Build rule for subdir invocation for target.
 usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : usb/device/tinyusb_device_examples/video_capture/CMakeFiles/tinyusb_dev_video_capture.dir/rule
@@ -8979,7 +9036,7 @@ usb/device/tinyusb_device_examples/webusb_serial/CMakeFiles/tinyusb_dev_webusb_s
 usb/device/tinyusb_device_examples/webusb_serial/CMakeFiles/tinyusb_dev_webusb_serial.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f usb/device/tinyusb_device_examples/webusb_serial/CMakeFiles/tinyusb_dev_webusb_serial.dir/build.make usb/device/tinyusb_device_examples/webusb_serial/CMakeFiles/tinyusb_dev_webusb_serial.dir/depend
 	$(MAKE) $(MAKESILENT) -f usb/device/tinyusb_device_examples/webusb_serial/CMakeFiles/tinyusb_dev_webusb_serial.dir/build.make usb/device/tinyusb_device_examples/webusb_serial/CMakeFiles/tinyusb_dev_webusb_serial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=94 "Built target tinyusb_dev_webusb_serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=95 "Built target tinyusb_dev_webusb_serial"
 .PHONY : usb/device/tinyusb_device_examples/webusb_serial/CMakeFiles/tinyusb_dev_webusb_serial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -9060,12 +9117,12 @@ usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/all
 usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/build.make usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/depend
 	$(MAKE) $(MAKESILENT) -f usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/build.make usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=95 "Built target tinyusb_host_bare_api"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target tinyusb_host_bare_api"
 .PHONY : usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/all
 
 # Build rule for subdir invocation for target.
 usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/rule
@@ -9168,7 +9225,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/all: pico-sdk/src/rp2_
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/build.make usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/depend
 	$(MAKE) $(MAKESILENT) -f usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/build.make usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=28 "Built target host_cdc_msc_hid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=27 "Built target host_cdc_msc_hid"
 .PHONY : usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/all
 
 # Build rule for subdir invocation for target.
@@ -9195,12 +9252,12 @@ watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/all: pico-sdk/src/rp2_comm
 watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/build.make watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/depend
 	$(MAKE) $(MAKESILENT) -f watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/build.make watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num=27 "Built target hello_watchdog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/pico/pico-examples/build/CMakeFiles --progress-num= "Built target hello_watchdog"
 .PHONY : watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/all
 
 # Build rule for subdir invocation for target.
 watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/pico/pico-examples/build/CMakeFiles 0
 .PHONY : watchdog/hello_watchdog/CMakeFiles/hello_watchdog.dir/rule
