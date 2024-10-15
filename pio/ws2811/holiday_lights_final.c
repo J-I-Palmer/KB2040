@@ -90,8 +90,8 @@ int main(){
 		}
 		// Halloween
 		else if (counter == 5){
-			color1 = 0xd0300000; // Orange
-			color2 = 0xd000d000; // Purple
+			color1 = 0xd0a00000; // Orange
+			color2 = 0x80008000; // Purple
 			twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
 		}
 		// Thanksgiving
