@@ -867,8 +867,8 @@ Disassembly of section .text:
 10000790:	ff149300 	.word	0xff149300
 10000794:	00f5ff00 	.word	0x00f5ff00
 10000798:	ffffff00 	.word	0xffffff00
-1000079c:	9370db00 	.word	0x9370db00
-100007a0:	cc110000 	.word	0xcc110000
+1000079c:	ff00ff00 	.word	0xff00ff00
+100007a0:	ff110000 	.word	0xff110000
 100007a4:	dd571c00 	.word	0xdd571c00
 100007a8:	7b481c00 	.word	0x7b481c00
 
