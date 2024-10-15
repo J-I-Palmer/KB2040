@@ -71,14 +71,14 @@ int main(){
 		}
 		// St. Patrick's Day
 		else if (counter == 2){
-			color1 = 0x00ff1900; // Green
-			color2 = 0xffcc1100; // Yellow
+			color1 = 0x00ff0000; // Green
+			color2 = 0xffff0000; // Yellow
 			twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
 		}
 		// Easter
 		else if (counter == 3){
-			color1 = 0x9cd7ff00; // Pastel Blue
-			color2 = 0xffacd900; // Pastel Pink
+			color1 = 0x00f5ff00; // Turquiose
+			color2 = 0xff149300; // Pink
 			twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
 		}
 		// July 4th
