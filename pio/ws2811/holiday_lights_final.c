@@ -96,8 +96,8 @@ int main(){
 		}
 		// Thanksgiving
 		else if (counter == 6){
-			color1 = 0x7b481c00; // Tawny Brown
-			color2 = 0xdd571c00; // Fire Orange
+			color1 = 0xff380000; // Orange
+			color2 = 0xffff0000; // Yellow
 			twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
 		}
 		// Christmas

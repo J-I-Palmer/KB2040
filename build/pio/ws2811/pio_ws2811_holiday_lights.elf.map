@@ -1071,9 +1071,9 @@ Discarded input sections
  .text.pio_sm_drain_tx_fifo
                 0x00000000       0x48 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .bss.claimed   0x00000000        0x1 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 /tmp/ccae7IpJ.o
- .data          0x00000000        0x0 /tmp/ccae7IpJ.o
- .bss           0x00000000        0x0 /tmp/ccae7IpJ.o
+ .text          0x00000000        0x0 /tmp/cc9pJnIF.o
+ .data          0x00000000        0x0 /tmp/cc9pJnIF.o
+ .bss           0x00000000        0x0 /tmp/cc9pJnIF.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1337,11 +1337,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccae7IpJ.o
+ .boot2         0x10000000      0x100 /tmp/cc9pJnIF.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x25e0
+.text           0x10000100     0x25d8
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1407,240 +1407,240 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  .text.twoColor.constprop.0
                 0x10000408      0x144 CMakeFiles/pio_ws2811_holiday_lights.dir/holiday_lights_final.c.obj
  .text.startup.main
-                0x1000054c      0x260 CMakeFiles/pio_ws2811_holiday_lights.dir/holiday_lights_final.c.obj
+                0x1000054c      0x258 CMakeFiles/pio_ws2811_holiday_lights.dir/holiday_lights_final.c.obj
                 0x1000054c                main
  .text.gpio_set_function
-                0x100007ac       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100007ac                gpio_set_function
+                0x100007a4       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100007a4                gpio_set_function
  .text.gpio_init
-                0x100007dc       0x3c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100007dc                gpio_init
+                0x100007d4       0x3c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100007d4                gpio_init
  .text.running_on_fpga
-                0x10000818       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000818                running_on_fpga
+                0x10000810       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000810                running_on_fpga
  .text.hw_claim_lock
-                0x10000828       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000828                hw_claim_lock
+                0x10000820       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000820                hw_claim_lock
  .text.hw_claim_unlock
-                0x10000840       0x14 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000840                hw_claim_unlock
+                0x10000838       0x14 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000838                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x10000854       0x44 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000854                hw_claim_or_assert
+                0x1000084c       0x44 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000084c                hw_claim_or_assert
  .text.spin_locks_reset
-                0x10000898       0x1c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000898                spin_locks_reset
+                0x10000890       0x1c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000890                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100008b4       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100008b4                next_striped_spin_lock_num
+                0x100008ac       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100008ac                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x100008cc       0x24 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100008cc                irq_set_enabled
+                0x100008c4       0x24 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008c4                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x100008f0       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100008f0                irq_get_vtable_handler
+                0x100008e8       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008e8                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000900       0x54 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000900                irq_set_exclusive_handler
+                0x100008f8       0x54 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008f8                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10000954      0x1c4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000954                irq_remove_handler
+                0x1000094c      0x1c4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000094c                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000b18       0xb4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b18                irq_add_tail_to_free_list
+                0x10000b10       0xb4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b10                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000bcc       0x24 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000bcc                irq_init_priorities
+                0x10000bc4       0x24 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000bc4                irq_init_priorities
  .text.lock_init
-                0x10000bf0       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000bf0                lock_init
+                0x10000be8       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000be8                lock_init
  .text.mutex_init
-                0x10000c00       0x1c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000c00                mutex_init
+                0x10000bf8       0x1c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000bf8                mutex_init
  .text.recursive_mutex_init
-                0x10000c1c       0x1c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000c1c                recursive_mutex_init
+                0x10000c14       0x1c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000c14                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x10000c38       0x34 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000c38                timer_pool_entry_comparator
+                0x10000c30       0x34 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c30                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10000c6c       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c64       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000c9c      0x100 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c94      0x100 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000d9c      0x1c0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000d94      0x1c0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000f5c       0x6c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f5c                alarm_pool_init_default
+                0x10000f54       0x6c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f54                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x10000fc8      0x188 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000fc8                alarm_pool_add_alarm_at
+                0x10000fc0      0x188 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000fc0                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x10001150       0xc4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001150                sleep_until
+                0x10001148       0xc4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001148                sleep_until
  .text.sleep_ms
-                0x10001214       0x38 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001214                sleep_ms
+                0x1000120c       0x38 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000120c                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x1000124c       0xec CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000124c                best_effort_wfe_or_timeout
+                0x10001244       0xec CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001244                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10001338       0xbc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001330       0xbc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x100013f4       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100013f4                hardware_alarm_claim
+                0x100013ec       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100013ec                hardware_alarm_claim
  .text.time_us_64
-                0x1000140c       0x14 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000140c                time_us_64
+                0x10001404       0x14 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001404                time_us_64
  .text.busy_wait_until
-                0x10001420       0x20 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001420                busy_wait_until
+                0x10001418       0x20 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001418                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001440       0x8c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001440                hardware_alarm_set_callback
+                0x10001438       0x8c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001438                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100014cc       0xd0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100014cc                hardware_alarm_set_target
+                0x100014c4       0xd0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100014c4                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x1000159c       0x3c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000159c                hardware_alarm_cancel
+                0x10001594       0x3c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001594                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x100015d8       0x64 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100015d0       0x64 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x1000163c       0x3c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000163c                ph_post_alloc_init
+                0x10001634       0x3c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001634                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001678       0x98 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001678                ph_merge_two_pass
+                0x10001670       0x98 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001670                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001710      0x100 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001708      0x100 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001810      0x104 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001810                ph_remove_head
+                0x10001808      0x104 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001808                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001914       0x78 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001914                ph_remove_and_free_node
+                0x1000190c       0x78 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000190c                ph_remove_and_free_node
  .text.clocks_init
-                0x1000198c      0x2c8 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x1000198c                clocks_init
+                0x10001984      0x2c8 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001984                clocks_init
  .text.clock_get_hz
-                0x10001c54        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001c54                clock_get_hz
+                0x10001c4c        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001c4c                clock_get_hz
  .text.pll_init
-                0x10001c60       0xa0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001c60                pll_init
+                0x10001c58       0xa0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001c58                pll_init
  .text.watchdog_start_tick
-                0x10001d00       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001d00                watchdog_start_tick
+                0x10001cf8       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001cf8                watchdog_start_tick
  .text.xosc_init
-                0x10001d10       0x28 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001d10                xosc_init
+                0x10001d08       0x28 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001d08                xosc_init
  .text.runtime_init
-                0x10001d38       0xf0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001d38                runtime_init
- .text._exit    0x10001e28        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e28                _exit
- .text.exit     0x10001e2c        0x8 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e2c                exit
- .text.panic    0x10001e34       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e34                panic
+                0x10001d30       0xf0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001d30                runtime_init
+ .text._exit    0x10001e20        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e20                _exit
+ .text.exit     0x10001e24        0x8 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e24                exit
+ .text.panic    0x10001e2c       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e2c                panic
  .text.hard_assertion_failure
-                0x10001e64        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e64                hard_assertion_failure
+                0x10001e5c        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e5c                hard_assertion_failure
  .text._out_char
-                0x10001e70       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001e68       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x10001e80       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10001e80                weak_raw_vprintf
- .text          0x10001eb0       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001e78       0x30 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001e78                weak_raw_vprintf
+ .text          0x10001ea8       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10001ec0       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001ec0                rom_func_lookup
+                0x10001eb8       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001eb8                rom_func_lookup
  .text.rom_data_lookup
-                0x10001ed0       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001ed0                rom_data_lookup
+                0x10001ec8       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001ec8                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001ee0       0x44 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001ee0                rom_funcs_lookup
+                0x10001ed8       0x44 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001ed8                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x10001f24       0x50 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10001f24                __wrap___aeabi_idivmod
-                0x10001f24                divmod_s32s32
-                0x10001f24                div_s32s32
-                0x10001f24                __wrap___aeabi_idiv
-                0x10001f2c                divmod_s32s32_unsafe
-                0x10001f58                divmod_s32s32_savestate
+                0x10001f1c       0x50 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001f1c                __wrap___aeabi_idivmod
+                0x10001f1c                divmod_s32s32
+                0x10001f1c                div_s32s32
+                0x10001f1c                __wrap___aeabi_idiv
+                0x10001f24                divmod_s32s32_unsafe
+                0x10001f50                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10001f74       0x4c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10001f74                __wrap___aeabi_uidiv
-                0x10001f74                __wrap___aeabi_uidivmod
-                0x10001f74                div_u32u32
-                0x10001f74                divmod_u32u32
-                0x10001f7c                divmod_u32u32_unsafe
-                0x10001fa4                divmod_u32u32_savestate
+                0x10001f6c       0x4c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001f6c                __wrap___aeabi_uidiv
+                0x10001f6c                __wrap___aeabi_uidivmod
+                0x10001f6c                div_u32u32
+                0x10001f6c                divmod_u32u32
+                0x10001f74                divmod_u32u32_unsafe
+                0x10001f9c                divmod_u32u32_savestate
  .text.missing_double_func_shim
-                0x10001fc0        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001fb8        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10001fcc       0x94 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10001fcc                __aeabi_double_init
+                0x10001fc4       0x94 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001fc4                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10002060       0x2c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10002060                double_table_shim_on_use_helper
+                0x10002058       0x2c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002058                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x1000208c       0x32 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x1000208c                __wrap___aeabi_lmul
- *fill*         0x100020be        0x2 
+                0x10002084       0x32 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10002084                __wrap___aeabi_lmul
+ *fill*         0x100020b6        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x100020c0       0x48 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100020c0                __wrap___aeabi_frsub
-                0x100020c6                __wrap___aeabi_fsub
-                0x100020cc                __wrap___aeabi_fadd
-                0x100020d2                __wrap___aeabi_fdiv
-                0x100020fa                __wrap___aeabi_fmul
+                0x100020b8       0x48 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100020b8                __wrap___aeabi_frsub
+                0x100020be                __wrap___aeabi_fsub
+                0x100020c4                __wrap___aeabi_fadd
+                0x100020ca                __wrap___aeabi_fdiv
+                0x100020f2                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x10002108        0xa CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10002108                __wrap___aeabi_ui2f
- *fill*         0x10002112        0x2 
+                0x10002100        0xa CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10002100                __wrap___aeabi_ui2f
+ *fill*         0x1000210a        0x2 
  .text.__wrap___aeabi_i2f
-                0x10002114       0x44 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10002114                __wrap___aeabi_i2f
+                0x1000210c       0x44 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x1000210c                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2uiz
-                0x10002158        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10002158                __wrap___aeabi_f2uiz
+                0x10002150        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10002150                __wrap___aeabi_f2uiz
  .text.missing_float_func_shim
-                0x10002164        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x1000215c        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x10002170       0x5c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10002170                __aeabi_float_init
- .text          0x100021cc       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100021cc                __aeabi_mem_init
- .text.memcpy   0x100021dc        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100021dc                __wrap___aeabi_memcpy
-                0x100021dc                __wrap_memcpy
+                0x10002168       0x5c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10002168                __aeabi_float_init
+ .text          0x100021c4       0x10 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100021c4                __aeabi_mem_init
+ .text.memcpy   0x100021d4        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100021d4                __wrap___aeabi_memcpy
+                0x100021d4                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x100021e8       0xbc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100021e0       0xbc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x100022a4       0x98 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100022a4                __wrap_putchar
+                0x1000229c       0x98 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000229c                __wrap_putchar
  .text.__wrap_puts
-                0x1000233c       0xe0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000233c                __wrap_puts
+                0x10002334       0xe0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002334                __wrap_puts
  .text.pio_add_program
-                0x1000241c       0xf0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x1000241c                pio_add_program
+                0x10002414       0xf0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10002414                pio_add_program
  .text.pio_sm_set_consecutive_pindirs
-                0x1000250c       0xa8 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x1000250c                pio_sm_set_consecutive_pindirs
+                0x10002504       0xa8 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10002504                pio_sm_set_consecutive_pindirs
  .text.pio_sm_init
-                0x100025b4       0x98 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100025b4                pio_sm_init
- .text          0x1000264c       0x5c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x1000264c                strlen
+                0x100025ac       0x98 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100025ac                pio_sm_init
+ .text          0x10002644       0x5c /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x10002644                strlen
  *(.fini)
- .fini          0x100026a8        0x4 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
-                0x100026a8                _fini
- *fill*         0x100026ac        0x4 
- .fini.__stub   0x100026b0       0x30 linker stubs
+ .fini          0x100026a0        0x4 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
+                0x100026a0                _fini
+ *fill*         0x100026a4        0x4 
+ .fini.__stub   0x100026a8       0x30 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1652,94 +1652,94 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x100026e0        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100026e0                        . = ALIGN (0x4)
+ .eh_frame      0x100026d8        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x100026d8                        . = ALIGN (0x4)
 
-.glue_7         0x100026e0        0x0
- .glue_7        0x100026e0        0x0 linker stubs
+.glue_7         0x100026d8        0x0
+ .glue_7        0x100026d8        0x0 linker stubs
 
-.glue_7t        0x100026e0        0x0
- .glue_7t       0x100026e0        0x0 linker stubs
+.glue_7t        0x100026d8        0x0
+ .glue_7t       0x100026d8        0x0 linker stubs
 
-.vfp11_veneer   0x100026e0        0x0
- .vfp11_veneer  0x100026e0        0x0 linker stubs
+.vfp11_veneer   0x100026d8        0x0
+ .vfp11_veneer  0x100026d8        0x0 linker stubs
 
-.v4_bx          0x100026e0        0x0
- .v4_bx         0x100026e0        0x0 linker stubs
+.v4_bx          0x100026d8        0x0
+ .v4_bx         0x100026d8        0x0 linker stubs
 
-.iplt           0x100026e0        0x0
- .iplt          0x100026e0        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100026d8        0x0
+ .iplt          0x100026d8        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100026e0      0x100
+.rodata         0x100026d8      0x100
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.ws2811_program
-                0x100026e0        0x6 CMakeFiles/pio_ws2811_holiday_lights.dir/holiday_lights_final.c.obj
- *fill*         0x100026e6        0x2 
+                0x100026d8        0x6 CMakeFiles/pio_ws2811_holiday_lights.dir/holiday_lights_final.c.obj
+ *fill*         0x100026de        0x2 
  .rodata.ws2811_program_instructions
-                0x100026e8        0x8 CMakeFiles/pio_ws2811_holiday_lights.dir/holiday_lights_final.c.obj
+                0x100026e0        0x8 CMakeFiles/pio_ws2811_holiday_lights.dir/holiday_lights_final.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x100026f0       0x22 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10002712        0x2 
+                0x100026e8       0x22 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x1000270a        0x2 
  .rodata.panic.str1.4
-                0x10002714       0x12 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10002726        0x2 
+                0x1000270c       0x12 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x1000271e        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x10002728        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002720        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x10002734       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x1000272c       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x1000274c       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10002744       0x18 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                   0x1 (size before relaxing)
  .rodata.str1.4
-                0x1000274c       0x58 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002744       0x58 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x100027a4        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000279c        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x100027b0        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027a8        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x100027bc        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027b4        0xc CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x100027c8        0x2 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100027ca        0x2 
+                0x100027c0        0x2 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100027c2        0x2 
  .rodata.pio_add_program.str1.4
-                0x100027cc       0x11 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100027e0                        . = ALIGN (0x4)
- *fill*         0x100027dd        0x3 
+                0x100027c4       0x11 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100027d8                        . = ALIGN (0x4)
+ *fill*         0x100027d5        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100027e0                        . = ALIGN (0x4)
+                0x100027d8                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100027e0                        __exidx_start = .
+                0x100027d8                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100027e0                        __exidx_end = .
-                0x100027e0                        . = ALIGN (0x4)
-                0x100027e0                        __binary_info_start = .
+                0x100027d8                        __exidx_end = .
+                0x100027d8                        . = ALIGN (0x4)
+                0x100027d8                        __binary_info_start = .
 
-.binary_info    0x100027e0       0x1c
+.binary_info    0x100027d8       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x100027e0        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027d8        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x100027e4        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027dc        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x100027e8        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027e0        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x100027ec        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027e4        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x100027f0        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027e8        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x100027f4        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027ec        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x100027f8        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100027f0        0x4 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x100027fc                        __binary_info_end = .
+                0x100027f4                        __binary_info_end = .
 
-.rel.dyn        0x100027fc        0x0
- .rel.iplt      0x100027fc        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100027fc                        . = ALIGN (0x4)
+.rel.dyn        0x100027f4        0x0
+ .rel.iplt      0x100027f4        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x100027f4                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -1748,7 +1748,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x20000000       0xc0 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x18c load address 0x100027fc
+.data           0x200000c0      0x18c load address 0x100027f4
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1822,36 +1822,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x2000024c                        . = ALIGN (0x4)
                 0x2000024c                        __data_end__ = .
-                0x100027fc                        __etext = LOADADDR (.data)
+                0x100027f4                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x2000024c        0x0 load address 0x10002988
+                0x2000024c        0x0 load address 0x10002980
  .tm_clone_table
                 0x2000024c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000024c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x2000024c        0x0 load address 0x10002988
+.igot.plt       0x2000024c        0x0 load address 0x10002980
  .igot.plt      0x2000024c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x2000024c        0x0 load address 0x10002988
+                0x2000024c        0x0 load address 0x10002980
                 0x2000024c                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10002988
+.scratch_x      0x20040000        0x0 load address 0x10002980
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10002988                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10002980                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10002988
+.scratch_y      0x20041000        0x0 load address 0x10002980
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10002988                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10002980                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000250      0x3d4
                 0x20000250                        . = ALIGN (0x4)
@@ -1910,8 +1910,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10002988        0x0
-                0x10002988                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10002980        0x0
+                0x10002980                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -1967,7 +1967,7 @@ LOAD CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp
 LOAD CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD /tmp/ccae7IpJ.o
+LOAD /tmp/cc9pJnIF.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2055,7 +2055,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000544       0x2c CMakeFiles/pio_ws2811_holiday_lights.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x00000570       0x22 /tmp/ccae7IpJ.o
+                0x00000570       0x22 /tmp/cc9pJnIF.o
  .ARM.attributes
                 0x00000592       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
