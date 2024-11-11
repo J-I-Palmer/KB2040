@@ -97,8 +97,9 @@ int main(){
 		// Thanksgiving
 		else if (counter == 6){
 			color1 = 0xff380000; // Orange
-			color2 = 0xffff0000; // Yellow
-			twoColor(color1, color2, str1_pio, str2_pio, sm1, sm2);
+			color2 = 0xff000000; // Red
+			color3 = 0xff8f0000; // Yellow
+			threeColor(color1, color2, color3, str1_pio, str2_pio, sm1, sm2);
 		}
 		// Christmas
 		else if (counter == 7){
